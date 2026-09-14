@@ -21,7 +21,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = path.join(ROOT, "public", "data");
 
-const MAX_AGE_HOURS = 14 * 24;  // two weeks — weekly cadence plus slack
+const MAX_AGE_HOURS = 8 * 24;   // the site lists the last week; one day of slack
 const MAX_PER_FEED = 20;        // cap each feed's contribution
 const MAX_TOTAL = 250;          // overall cap after sorting
 const MAX_IMAGES = 3;           // per item
@@ -146,6 +146,15 @@ async function main() {
   const config = JSON.parse(await readFile(path.join(ROOT, "src", "config", "feeds.json"), "utf8"));
   await mkdir(DATA_DIR, { recursive: true });
 
+  // Mission profiles (the ongoing state of each mission) are maintained by
+  // the weekly summarize task, not by this script — carry them through.
+  let missions = [];
+  try {
+    missions = JSON.parse(await readFile(path.join(DATA_DIR, "space.json"), "utf8")).missions ?? [];
+  } catch {
+    /* no previous data file — start with none */
+  }
+
   const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
   const all = [];
   const errors = [];
@@ -179,7 +188,7 @@ async function main() {
 
   await writeFile(
     path.join(DATA_DIR, "space.json"),
-    JSON.stringify({ generatedAt: new Date().toISOString(), failedFeeds: errors, items }, null, 1),
+    JSON.stringify({ generatedAt: new Date().toISOString(), failedFeeds: errors, missions, items }, null, 1),
   );
   console.log(`\nwrote public/data/space.json: ${items.length} items, ${errors.length} failed feed(s)`);
   // Only die if literally everything failed — partial data beats none.

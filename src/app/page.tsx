@@ -29,9 +29,21 @@ function itemSources(item: SpaceItem): ItemSource[] {
   return [];
 }
 
+/** The ongoing state of a mission, maintained week over week by the
+ * refresh task — independent of whether it made news this week. */
+interface MissionProfile {
+  agency: string;
+  mission: string;
+  profile: string;
+  status?: string;
+  launched?: string;
+  expected?: string;
+}
+
 interface SpaceFile {
   generatedAt: string;
   failedFeeds: string[];
+  missions?: MissionProfile[];
   items: SpaceItem[];
 }
 
@@ -50,26 +62,31 @@ function relativeTime(iso: string): string {
   return weeks === 1 ? "last week" : `${weeks} weeks ago`;
 }
 
-/** agency -> mission -> items, preserving config's agency order and each
- * group's newest-first ordering (items arrive sorted newest first). */
-function groupItems(items: SpaceItem[]) {
+/** agency -> mission -> items, preserving config's agency order. Missions
+ * that have a profile but no news this week still get a (quiet) section. */
+function groupItems(items: SpaceItem[], profiles: MissionProfile[]) {
   const byAgency = new Map<string, Map<string, SpaceItem[]>>();
-  for (const item of items) {
-    const agency = AGENCIES[item.agency] ? item.agency : "nasa";
+  const add = (agency: string, mission: string) => {
+    if (!AGENCIES[agency]) agency = "nasa";
     if (!byAgency.has(agency)) byAgency.set(agency, new Map());
     const missions = byAgency.get(agency)!;
-    const mission = item.mission || GENERAL;
     if (!missions.has(mission)) missions.set(mission, []);
-    missions.get(mission)!.push(item);
-  }
+    return missions.get(mission)!;
+  };
+  for (const item of items) add(item.agency, item.mission || GENERAL).push(item);
+  for (const p of profiles) add(p.agency, p.mission);
   return Object.keys(AGENCIES)
     .filter((a) => byAgency.has(a))
     .map((a) => ({
       agency: a,
-      // missions sorted by their newest item; the general bucket always last
+      // missions with news first (newest first), quiet missions after,
+      // the agency-wide bucket always last
       missions: [...byAgency.get(a)!.entries()].sort((x, y) => {
         if (x[0] === GENERAL) return 1;
         if (y[0] === GENERAL) return -1;
+        if (x[1].length === 0 && y[1].length === 0) return x[0].localeCompare(y[0]);
+        if (x[1].length === 0) return 1;
+        if (y[1].length === 0) return -1;
         return y[1][0].publishedAt.localeCompare(x[1][0].publishedAt);
       }),
     }));
@@ -113,7 +130,7 @@ export default function Home() {
       )}
 
       {data &&
-        groupItems(data.items).map(({ agency, missions }) => (
+        groupItems(data.items, data.missions ?? []).map(({ agency, missions }) => (
           <section key={agency} className="mt-10 first:mt-0">
             <h2 className="flex items-center gap-2.5 border-b border-white/10 pb-2 text-lg font-semibold tracking-tight">
               <span
@@ -123,11 +140,42 @@ export default function Home() {
               />
               {AGENCIES[agency].label}
             </h2>
-            {missions.map(([mission, items]) => (
-              <div key={mission} className="mt-5">
-                <h3 className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-500">
+            {missions.map(([mission, items]) => {
+              const profile = (data.missions ?? []).find(
+                (p) => p.mission === mission && p.agency === agency,
+              );
+              const meta = profile
+                ? [
+                    profile.status,
+                    profile.launched && `Launched ${profile.launched}`,
+                    profile.expected,
+                  ].filter(Boolean)
+                : [];
+              return (
+              <div key={mission} className="mt-6">
+                <h3 className="text-xs font-semibold uppercase tracking-widest text-neutral-500">
                   {mission}
                 </h3>
+                {meta.length > 0 && (
+                  <p className="mt-1 text-xs text-neutral-500">
+                    {meta.map((m, j) => (
+                      <span key={j}>
+                        {j > 0 && <span aria-hidden> · </span>}
+                        {m}
+                      </span>
+                    ))}
+                  </p>
+                )}
+                {profile && (
+                  <p className="mt-1.5 max-w-prose border-l-2 border-white/10 pl-3 text-[13px] leading-relaxed text-neutral-400">
+                    {profile.profile}
+                  </p>
+                )}
+                {items.length === 0 && (
+                  <p className="mt-2 text-sm italic text-neutral-500">
+                    No updates this past week.
+                  </p>
+                )}
                 <ol>
                   {items.map((item) => {
                     const sources = itemSources(item);
@@ -195,7 +243,8 @@ export default function Home() {
                   })}
                 </ol>
               </div>
-            ))}
+              );
+            })}
           </section>
         ))}
 
@@ -209,8 +258,8 @@ export default function Home() {
           </a>
         </p>
         <p className="mt-2">
-          Weekly digest of mission news and images from the world&apos;s space agencies. Headlines
-          and images link to their original sources.
+          Weekly digest of the past week&apos;s mission news and images from the world&apos;s
+          space agencies. Headlines and images link to their original sources.
         </p>
       </footer>
     </div>
