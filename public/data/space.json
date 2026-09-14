@@ -1,0 +1,631 @@
+{
+ "generatedAt": "2026-09-14T18:37:43.757Z",
+ "failedFeeds": [],
+ "missions": [
+  {
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "profile": "Wide-field infrared survey telescope with a Hubble-class mirror but a field of view roughly one hundred times larger, built to study dark energy and find exoplanets through microlensing and direct imaging.",
+   "status": "Commissioning",
+   "launched": "Sep 2026",
+   "expected": "5-year primary mission"
+  },
+  {
+   "agency": "nasa",
+   "mission": "James Webb Space Telescope",
+   "profile": "NASA/ESA/CSA infrared flagship observing from Sun–Earth L2, covering everything from the first galaxies to exoplanet atmospheres.",
+   "status": "Operating",
+   "launched": "25 Dec 2021",
+   "expected": "20+ year propellant lifetime"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Hubble Space Telescope",
+   "profile": "The veteran NASA/ESA optical and ultraviolet observatory in low Earth orbit, still producing frontline science in its fourth decade.",
+   "status": "Operating",
+   "launched": "24 Apr 1990"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Artemis",
+   "profile": "NASA's programme to return astronauts to the Moon with commercial and international partners. Artemis I flew uncrewed in 2022; Artemis II is the first crewed flight.",
+   "status": "In progress"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Jupiter & Outer Planets",
+   "profile": "Europa Clipper is en route to assess the habitability of Jupiter's moon Europa, arriving in 2030; ESA's JUICE mission follows to the icy moons in 2031.",
+   "status": "In transit",
+   "launched": "Oct 2024 (Clipper)"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Solar Missions",
+   "profile": "Parker Solar Probe flies repeated record-close passes through the Sun's corona to trace how the solar wind is heated and accelerated.",
+   "status": "Operating",
+   "launched": "12 Aug 2018",
+   "expected": "Extended operations"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Mars",
+   "profile": "NASA's surface fleet — the Perseverance and Curiosity rovers — continues exploring Jezero and Gale craters, with orbiters relaying data overhead.",
+   "status": "Operating"
+  },
+  {
+   "agency": "nasa",
+   "mission": "International Space Station",
+   "profile": "Continuously crewed orbital laboratory operated with international partners, hosting rotating crews and microgravity research.",
+   "status": "Operating",
+   "launched": "First module 1998",
+   "expected": "Operations planned through 2030"
+  },
+  {
+   "agency": "esa",
+   "mission": "BepiColombo (Mercury)",
+   "profile": "Joint ESA/JAXA mission carrying two orbiters to Mercury. After an eight-year cruise it is now in its arrival phase, ahead of orbit insertion.",
+   "status": "Arriving at Mercury",
+   "launched": "20 Oct 2018",
+   "expected": "1-year science mission, extendable"
+  },
+  {
+   "agency": "esa",
+   "mission": "Earth Observation",
+   "profile": "ESA's Earth-watching fleet: the Copernicus Sentinels monitor land, ocean and atmosphere, with FLEX next up to map plant fluorescence globally.",
+   "status": "Operating; FLEX awaiting launch"
+  },
+  {
+   "agency": "esa",
+   "mission": "Solar Missions",
+   "profile": "Solar Orbiter studies the Sun at close range and from progressively tilted orbits, returning the first good views of the solar poles.",
+   "status": "Operating",
+   "launched": "10 Feb 2020"
+  },
+  {
+   "agency": "isro",
+   "mission": "Gaganyaan",
+   "profile": "India's human spaceflight programme, working toward its first crewed orbital mission through uncrewed test flights and recovery testing.",
+   "status": "In development"
+  },
+  {
+   "agency": "isro",
+   "mission": "EOS-05",
+   "profile": "Earth observation satellite providing imaging over the Indian region from geostationary orbit.",
+   "status": "In geostationary orbit",
+   "launched": "2026"
+  },
+  {
+   "agency": "isro",
+   "mission": "LVM3",
+   "profile": "India's heaviest operational launch vehicle, used for Chandrayaan-3 and slated for Gaganyaan, powered by the CE20 cryogenic upper stage.",
+   "status": "Operational"
+  },
+  {
+   "agency": "cnsa",
+   "mission": "Chang'e Lunar Program",
+   "profile": "China's robotic lunar programme. Chang'e-6 returned the first far-side samples in 2024; Chang'e-7 and -8 target the lunar south pole ahead of a planned research station.",
+   "status": "Ongoing; Chang'e-7 postponed"
+  },
+  {
+   "agency": "cnsa",
+   "mission": "Tianwen Program",
+   "profile": "China's planetary exploration line: Tianwen-1 orbits Mars, Tianwen-2 is en route to sample the quasi-satellite Kamo'oalewa, and Tianwen-3 aims to return samples from Mars.",
+   "status": "Ongoing",
+   "expected": "Tianwen-3 launch targeted 2028"
+  },
+  {
+   "agency": "nsf-doe",
+   "mission": "Vera C. Rubin Observatory",
+   "profile": "8.4-metre survey telescope in Chile with the largest digital camera ever built, imaging the entire southern sky every few nights.",
+   "status": "Survey operations",
+   "expected": "10-year Legacy Survey of Space and Time"
+  }
+ ],
+ "items": [
+  {
+   "id": 0,
+   "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-14T16:46:07.000Z",
+   "summary": "The Republic of Djibouti became the 72nd nation and eighth African country to sign the Artemis Accords during a ceremony Monday at NASA Headquarters in Washington. The Artemis Accords are the first set of practical principles aimed at enhancing transparency, safety, and coordination among nations as they explore the…",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "title": "China postpones Chang'e-7 lunar south pole mission",
+   "agency": "cnsa",
+   "mission": "Chang'e Lunar Program",
+   "publishedAt": "2026-09-14T15:19:31.000Z",
+   "summary": "China has postponed the Chang'e-7 mission to the lunar south pole, prompting analysis of what the delay and a wider reorganization mean for its lunar exploration programme.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Universe Today",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeXlfZExuVW15RG9ZWldwOUJfSndleGF0MUpfelVRaHRBQ0FOd0lHelJnWEpvT19lbVNKT1FWTDdySHp0UG5pVHVXdnhmVFE4ZjkzZDFCdk5qMjJ0N25QbnFDeWJuNGtGazNhWlZoMGpfd0lyN2EwcE8xbDJ3X0RJVg?oc=5"
+    },
+    {
+     "name": "thediplomat.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYkpoZTBEOE9ubTVpdzlkUWc1Tng3QS03VHVhclNLakxjRGdVOFlZU0ZibEVkblkxa25iaHVPQnRaZXBwdHlIRXczYzNPal81Z3k5WHphWF9BLWQ4Z054cmVyY0pVSkpzTlczSjRLMW13a0xLQzlHU0w4ZGw5WWxIY2RwMzdHSjJPcHFoVVMtZDkzWU9fY1VrVER0RXpJeW41QUQ1RjdTblp5dXJzU1JlSzAtZC03SDI4?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-14T15:00:00.000Z",
+   "summary": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training program since the agency introduced them to the public on Sept. 22, 2025, from NASA’s Johnson…",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Roman Space Telescope launches from Florida and begins commissioning",
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "publishedAt": "2026-09-14T13:06:29.000Z",
+   "summary": "NASA's Nancy Grace Roman Space Telescope lifted off from Florida and has begun spacecraft commissioning. Roman pairs a Hubble-sized mirror with a field of view roughly one hundred times larger for wide-field infrared surveys.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnY4VjlDZTZPSERFaHNsZy1aQ041SHN4OXBNcFdKckx5bFYyaDRGTGZLTy1zamgxc0tzNG1QOUFBLUw5SGgwcmZGUTBZWV9zakpJN29WUGpQbzdEMW5vbHVKZlFkdXhsdWRoWVI5dHNfVi11WU1iMmtOV3ZOR2NrS19kSGJLRERzajRDZ2NvWjFmTVBhZ01uNGltWDRRNXB2?oc=5"
+    },
+    {
+     "name": "theticker.org",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03Zy1abjBXZWdvLVUya2lXX1Rwd3FVeEFhMXFRZ04weVZpUlFYeXM0M1lEWjhKSzlsTk9raW9VMjRKUlcwTWEtUEZmTmN1dm5VMDNGVXVOWlVaQk9ZQTI2VUxJdXdYTzRQOW94enBiUDNqdE96SlUzcnpUaw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "How Roman will find exoplanets — and what it can do that Hubble cannot",
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "publishedAt": "2026-09-14T12:40:58.000Z",
+   "summary": "Roman will detect distant planets by gravitational microlensing — gravity acting as a magnifying glass — and directly image others with its coronagraph. Its 300-megapixel Wide Field Instrument drives survey studies of dark energy and exoplanet demographics.",
+   "images": [],
+   "sources": [
+    {
+     "name": "The Conversation",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEVoWlhuWkpwN0RqTzBJQUpxbzNBNldaS0xWVE5wV1pXQnkwRzZCYkhQMDNJSnE1em5Ca1lRX0ZPY2VEVHUtdWdVdVRXZWx5bTF1MWpCTm9XRVhUZk04M1BnOXViVjBCRlJxaWk0QkktMlZndS1oZzlUbnFiLS1NRDZYUHhHMVp4LUdOMXNyZnlOYXVIcGNWdTF3ZmFkTDVSeUpoMDhHZjJXVG1ZY0ZqaURtODdJNFZFSExoSXFORlhwRTg?oc=5"
+    },
+    {
+     "name": "Space",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYWxNaU80NWhGVHFhQkhQZ190NzlQOFJiSVEzQVo4WXRQbXVVWmZMRDZJcGJqU0tZNHNzREhOYV9oRmV6cGdxY3VHRnJWMVBxRERTYk9henFOUXpZMnU3Qzl0alF2VWVXcVpGdTRQNVVaMVE4cm1FME5paWhNTnRnNHZxakxGY0xzdERyMm9VWEhrcENJeV9MZGZyUTBRMjhudzJaUm5MVXh4cFA4S0RKcnlWZXhmaHMwQUFjWmNwengyNkZHQ3NXQzI5bTVna25JdlpHaUlkTQ?oc=5"
+    },
+    {
+     "name": "NASA Science (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObWdockN3QVpvanlWTHVPTnVMdXNXQk52aGpGdUptVlJNaUJud05yYTNaanRxVUtxQllSS3VDRDdiYkdaTUFQLTYtakZySWFiaHZGaWJZOTJKZFltQzdCcG9vSUR5TlV5V0JrQmczaVBJN3dfS3FiZjlqZGRXVkd4eUc4RQ?oc=5"
+    },
+    {
+     "name": "The Planetary Society",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZC1LdUxpUTRNckN2TkRjQlFjTnhNUUF4Q1NMeTJGZTlXd0F0OHlWYVo5N3Q5V2xuSF9nZ3doTE1HRlZxNnpQT2JnZkFYSHg4bGdQdHFiY3lCYmY4Z2NhOWpWbW13eTY0aWZ6b204T3pwTHBXWFdOOHU4TW9VZnRPbjY0NA?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "ISRO successfully conducts 2nd integrated air drop test for Gaganyaan mission | Akashvani News",
+   "agency": "isro",
+   "mission": "Gaganyaan",
+   "publishedAt": "2026-09-14T09:15:15.000Z",
+   "summary": "ISRO successfully conducted its second integrated air drop test for the Gaganyaan human spaceflight programme.",
+   "images": [],
+   "sources": [
+    {
+     "name": "News On AIR",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd2Nsb1lUVGZmZ3hVckZMMGdMMVBOZEdER2otaHJuOHFwbUhMcnE0TVYzVW9OUHdTbjBmSlFfM2JmZE9NeV9kUlRhWHQ4eUhxd1l6ZVozX0dwM0FnZzlTNDhMMUJOUFhROUszTmRyeWxPdGZLaU14QWhHd2FmMFh6ZjV1Vnh0NktGWlUwa0ZoR1k1RW05V2JmTVViQTZrbm5oNHowOGNR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "ESA Space Environment Report 2026",
+   "agency": "esa",
+   "mission": null,
+   "publishedAt": "2026-09-14T08:52:00.000Z",
+   "summary": "ESA published its 2026 Space Environment Report, its annual accounting of debris and traffic in Earth orbit.",
+   "images": [
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/number_of_objects_will_skyrocket_-_2026_space_environment_report/27465798-1-eng-GB/Number_of_objects_will_skyrocket_-_2026_Space_environment_report_card_full.png"
+   ],
+   "sources": [
+    {
+     "name": "ESA Top News",
+     "url": "https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "FLEX and Sentinel-3C ready for a shared launch on Vega-C",
+   "agency": "esa",
+   "mission": "Earth Observation",
+   "publishedAt": "2026-09-14T08:00:00.000Z",
+   "summary": "ESA's FLEX mission — designed to map the faint fluorescent glow of photosynthesising plants — and the Copernicus Sentinel-3C satellite are ready for liftoff on a single Vega-C flight, with ESA mission control rehearsing the unusual dual launch.",
+   "images": [
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/flex_and_sentinel-3c_ready_for_launch/27459766-1-eng-GB/FLEX_and_Sentinel-3C_ready_for_launch_card_full.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/esa_s_flex_mission_reveals_the_secret_glow_of_plants/27465436-1-eng-GB/ESA_s_FLEX_mission_reveals_the_secret_glow_of_plants_card_full.png",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/teams_at_esoc_during_esa_s_flex_and_copernicus_sentinel-3c_launch_and_early_orbit_leop_simulations/27464737-3-eng-GB/Teams_at_ESOC_during_ESA_s_FLEX_and_Copernicus_Sentinel-3C_launch_and_early_orbit_LEOP_simulations_card_full.png"
+   ],
+   "sources": [
+    {
+     "name": "ESA Top News",
+     "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Solar wind particles appear to be lodged deeper in the lunar soil Chang'e-6 scooped from the Moon's far side than in the near-side soil Chang'e-5 brought home, and the researchers attribute the gap to Earth's magnetosphere, which they estimate slows part of",
+   "agency": "cnsa",
+   "mission": "Chang'e Lunar Program",
+   "publishedAt": "2026-09-14T06:00:00.000Z",
+   "summary": "Analysis of the far-side samples returned by Chang'e-6 suggests solar wind particles sit deeper in the lunar soil than expected.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Space Daily",
+     "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPUlpCRVJ5UVI3eW9CMmhGNGUzd2FhNzB6NkVRU0k3T0FMM0NOdUtLdXk5S3d4YTRkSHh6dGQwLURBX0lFaTg3bVlGRjZ3VUt6MG1qMDJpVlVaMjhPZnA2Q28zSjFxdlhWdzlHZDFhQVFLbGI5RzFvalNBZ2xOcFlweHNtU2hRdG1MWXI0anlKVEswcjQteFlCRXlSX2dDUlZIUkxrdHpYeG1yWmZMWDd6azZOb2w0UlU2TWtlWmJDcmdwdGdzOTdmb194SG13X3hEWXJaWldrN0hVTmcwY2pxdEYwaEx2Vk9XMjJiczQ5VThZUlhYV3haS3M0Q0pBZTRoRkNaRnlabnRZR3hwR3l3QWRESEJJdzNGSWJwbzRsTWxmMmcxd0tMNVZTRlNsb3hmc3RuZjRTMU84NmFHNjYzR0k0VU0?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "APOD: 2026 September 14 – Where Your Elements Came From",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-14T04:05:00.000Z",
+   "summary": "APODScienceAPODAPOD: 2026 September 14 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional…",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "An Early Look at Fall Color in Canada",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-14T04:00:00.000Z",
+   "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "title": "Rubin Observatory releases a deep view of the COSMOS field",
+   "agency": "nsf-doe",
+   "mission": "Vera C. Rubin Observatory",
+   "publishedAt": "2026-09-13T11:08:29.000Z",
+   "summary": "The Vera C. Rubin Observatory released a deep image of the well-studied COSMOS field containing hundreds of thousands of galaxies — an early demonstration of the survey depth its ten-year LSST campaign will reach.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Phys.org",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6V3F4OE9McnNLSU1WaW5wUGVPZWdna2FNSEh0VWozV20yOVpBTHh2TU0wdjI4MXVWcjJ6dC1qUTFwREtJUE5MYTFYTDNETjNrMHB4T2x2YVRMbmNzdUZCNmFnV3RodjRVOW1fOWVjQXlXZmJzMWFmbzRB?oc=5"
+    },
+    {
+     "name": "starlust.org",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZjVBQU1tMnBpMzVKMjhtY0J4dlNuU25IbW1scHBxTlZMcGZ2dmxtQ0gtekpLb2pDMTBxQXJYeUNrYTBFT2RWa3ZaQkxUWGxJdktlWGxXLU5NQXI3aElQSUpUaVAxRjVzZi13RjlUV200dkJTRU5XdUxETXY5dFA1Q3JPRXo?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-13T04:05:00.000Z",
+   "summary": "APODScienceAPODAPOD: 2026 September 13 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional…",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "title": "Parker Solar Probe checks in healthy after latest close pass of the Sun",
+   "agency": "nasa",
+   "mission": "Solar Missions",
+   "publishedAt": "2026-09-11T22:10:15.000Z",
+   "summary": "NASA's Parker Solar Probe reported back in good health following its latest perihelion pass, continuing its record-setting series of close approaches to the Sun.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA Science (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVDdYelBZQzh1UUZQREZuLWlkNjVsc3pRUUV5S3NESUVyUFJ6VTFlcTAyV1htRFhzOHdDNDF3MHY4WWpDMmx6U3hqV2NmQXVaQXJiNGZ4VnBSWWxiODVHVWtvRm5LQTNWSVcyNUJZMk4xakN2M21XWXljOTBvU3g5aHlFcWh4VWhGTm5felFyTnF1dHRBLUgxUEJib1U2cFBZR3l4VERWWDc3cUkybHJvM2NwcEd3UEF1ZVdTLWxBc2hZZw?oc=5"
+    },
+    {
+     "name": "Florida Today",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNalgyZEdjVUxhTXUtd1dIUHNPMTAwdTMtajZzYjl1ZVZxSTNOQ3RxaG42S0hsWTVDbnFpMVhuWmpnd3lnWl9pQ0x2cnR0dXpWXzRyTWJWQXZBdUhzVVlrdUNXbDJOU1dCdlFNX01tcGlfSFpGSVd1dUdFd2NpRDd5ZVllZUduR0IwSXROdGlUTFl6TjQ1U2VLYXlQb3NoNHhnVHlCUXpzckpub3dhSjBhanRyMENhVExEaVdLcUNXbXZjUzFnX1dWbjlqdXpQb0k4UDRvZw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-11T19:48:09.000Z",
+   "summary": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, to help missions like Euclid and NASA’s new Nancy Grace Roman Space Telescope answer fundamental […]",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "title": "NASA's Chandra Spots Galactic Gem",
+   "agency": "nasa",
+   "mission": "Chandra X-ray Observatory",
+   "publishedAt": "2026-09-11T17:22:00.000Z",
+   "summary": "Galaxies are like cosmic gems, each with characteristics including size and shape that make them distinct. A gallery from NASA’s Chandra X-ray Observatory and other telescopes displays a collection of galactic images that showcase this variety.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/galaxies-iizw096/"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+   "agency": "nasa",
+   "mission": "International Space Station",
+   "publishedAt": "2026-09-11T15:05:20.000Z",
+   "summary": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev…",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "title": "Europa Clipper: Your Guide to Assembly",
+   "agency": "nasa",
+   "mission": "Jupiter & Outer Planets",
+   "publishedAt": "2026-09-11T11:51:03.000Z",
+   "summary": "A NASA guide to how Europa Clipper — the largest spacecraft the agency has built for a planetary mission — was assembled, now en route to Jupiter's moon Europa.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA Science (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kcmNHaGtMUHRXeFAwS3dWdTkwbWdwNExTYnZTcTQxQ3pGWlJxeFNuTi1PVjUxQjhxUGZ5NTJHbWxpeGNteGhCOHZVdW1qSzRyZzJjTEVzWjFzNGJyblVtMmhsbXAydGJxUFl6b2tRWGgzSkJLelVR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "title": "Dust and Water in Sagittarius A*",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-10T16:15:00.000Z",
+   "summary": "Using the James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the center of our Milky Way galaxy.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/55459350878-2e1468b664-o/"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "title": "CE20 cryogenic engine hot-fired at 220 kN for LVM3 M7 mission",
+   "agency": "isro",
+   "mission": "LVM3",
+   "publishedAt": "2026-09-10T14:23:00.000Z",
+   "summary": "ISRO successfully hot-tested its CE20 cryogenic upper-stage engine at a 220 kN thrust level ahead of the LVM3 M7 mission.",
+   "images": [],
+   "sources": [
+    {
+     "name": "ISRO",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sOTBobEFUeldiUkg2RFZ1YnpoamdSTnpTenluaW1nc0Nzb1FPaGh0a3BxT1VPb2hOdVZGZ1RNd1ZWWUlYRGd2UlgtZUlSN2hIWWdBR0ZER1hzU0kxcHJGeFlsZjVyT2RQZ0JmWDExejZUYlVn?oc=5"
+    },
+    {
+     "name": "Sarkaritel.com",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWRuSnRNU1FnVjFvckU4YlVKLV9rWE1fNDVudlV3Z3pfaGFfVnF2a3E5dUwwbGh4eGhpTUFuWU1jdnNNTEpQYVdoSS1pckJWS3RTTDdyTVc1MDZFRTBUTGEzbEZkN0hQaXkyMVdSQ2FMbHljVXVPbWRFT3dnbi1jcw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "title": "China alters Chang’e-8 lunar south pole mission amid lunar program reorganization",
+   "agency": "cnsa",
+   "mission": "Chang'e Lunar Program",
+   "publishedAt": "2026-09-10T13:34:41.000Z",
+   "summary": "China has altered its Chang'e-8 lunar south pole mission as part of a wider reorganization of its lunar programme.",
+   "images": [],
+   "sources": [
+    {
+     "name": "SpaceNews",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWWp6dGFhVWhCaHZSbmhHLVpvamxSTVc5YTU1c24xMHRnNGxRSjFxaEFxNUZMMXFjZjhSMVIwZHNjVW1YSmEwVHdGTWdYVHR2Z2dyV0IxTVFYVHphYXhkdERWZXF5Z1JWaWxjbGFQYnZSS3JjTWRYZFlQVkdSdTdOUFdqemZad1JiUVdYcEpOeXB0R2hWT293M25CMDBBT1pFRzloMDBR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "title": "Artemis II Crew at NASA Marshall",
+   "agency": "nasa",
+   "mission": "Artemis",
+   "publishedAt": "2026-09-09T15:32:00.000Z",
+   "summary": "The crew of NASA’s Artemis II mission visited NASA’s Marshall Space Flight Center in Huntsville, Alabama on Sept. 1, 2026.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/09/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig.jpg"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig/"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "title": "BepiColombo begins Mercury arrival with successful transfer module separation",
+   "agency": "esa",
+   "mission": "BepiColombo (Mercury)",
+   "publishedAt": "2026-09-09T12:00:00.000Z",
+   "summary": "After an eight-year cruise, the joint ESA/JAXA BepiColombo mission separated from its Mercury Transfer Module, beginning arrival operations ahead of orbit insertion. ESA also released the module's selfie footage spanning the journey.",
+   "images": [
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/mtm_separation_signal_confirmation/27452584-1-eng-GB/MTM_separation_signal_confirmation_card_full.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/mtm_s_selfie_footage_of_bepicolombo_s_eight-year_journey/27459166-1-eng-GB/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey_card_full.png"
+   ],
+   "sources": [
+    {
+     "name": "ESA Space Science",
+     "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+    },
+    {
+     "name": "ESA Top News",
+     "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "title": "China on track to launch Mars sample-return mission in 2028: 'If accurate, this represents a Sputnik moment'",
+   "agency": "cnsa",
+   "mission": "Tianwen Program",
+   "publishedAt": "2026-09-09T10:00:00.000Z",
+   "summary": "Chinese officials say the Tianwen-3 Mars sample-return mission remains on track for a 2028 launch — a timeline some observers describe as a potential 'Sputnik moment'.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Space",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOWk4Wl9hZ05naXFjYmJiTVlwUTJzX2VZb09ibHVvTTRwcW1TNEZrbjNNSWdlYWEyTHlFM3JvWVNzUmtQMnNfemI0aG9tNDJOWGtnb2o0RzdfVjduUm1VUlNfajBhYWxGZHhmMWVrdUJQUE42LUFxb2s1cGpsX3M0NG01X21jOVJJQm1aMHNMbUJvUlUySVJUNlVJQmE2c19VUklEcV9mcFgzeW51UnRBemJqNHRPZFpUQzB4clNRSnJqY181Q0IzanlvTi11RVh5dS1JY2VLa1Q?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "title": "Superbubble in the Large Magellanic Cloud",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-09-08T16:49:00.000Z",
+   "summary": "N44 is a complex nebula filled with glowing hydrogen gas, dark lanes of dust, massive stars, and many populations of stars of different ages. One of its most distinctive features, however, is the dark, starry gap called a “superbubble,” visible in this Hubble Space Telescope image in the upper central region.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/09/hubble-n44-wfc3-large.jpg"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/hubble-n44-wfc3-large/"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "title": "An Early Discovery by Rubin Observatory!",
+   "agency": "nsf-doe",
+   "mission": "Vera C. Rubin Observatory",
+   "publishedAt": "2026-09-08T15:52:32.000Z",
+   "summary": "Astronomers report one of the first scientific discoveries made with early Vera C. Rubin Observatory survey data.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Astrobites",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkMEFvM2diZnlnZzlIbExSNWQ0bEZZc0Z6UXQ1ODBiMThsaUt1VXhhdEVHbExuZXFObkp5MDF5bmYxMDZ4VVM3Q1U4YjNHTDBVMFJsWlMxQ1NxakdTSm53WUdnb1h3dUlLQnI5eVVZZ0k?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "title": "Anak Krakatau eruption by Sentinel-3",
+   "agency": "esa",
+   "mission": "Earth Observation",
+   "publishedAt": "2026-09-08T08:45:00.000Z",
+   "summary": "Image: Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.",
+   "images": [
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1-eng-GB/Anak_Krakatau_eruption_by_Sentinel-3_card_full.jpg"
+   ],
+   "sources": [
+    {
+     "name": "ESA Top News",
+     "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "title": "EOS-05 Mission: ISRO Says Final Orbit-Raising Manoeuvre Successful, Satellite Now In Geostationary Orbit",
+   "agency": "isro",
+   "mission": "EOS-05",
+   "publishedAt": "2026-09-08T04:13:49.000Z",
+   "summary": "ISRO's EOS-05 Earth observation satellite completed its final orbit-raising manoeuvre and is now in geostationary orbit.",
+   "images": [],
+   "sources": [
+    {
+     "name": "ETV Bharat",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVklxSTloVnhlbllaUXJnbnRBdDJrZ0JyNXZhbDZaZ1RyVTI5TjNxMEZKZjlZb2h6OFNjTkdoV1lsMll2UDVnbzRrTUVfR2ltQ2M3OE1NOUluakM4SHNUYllmX1lDZGNGcm83YkYwYXowbUljV1RzMG1OaTBHRHFxdjhaSkRLZVhfVDdtaVA4SlZLTEpiMW4yVFJFUWZTdUNhbzZGSFN0UnpLb2t5d0FYY0dMb0ltMGhIMWt1STdPQlAxMXBNZGYwaEZoMEZVRjlaLUgtamxZY2d0WTNYY0RsZ25VYjY2ek5ZS3U0SWdR0gHzAUFVX3lxTE9JREJaYnBQQWRzb016MXpST282V3ZWRW92czlpdm5sNDVwZDNGYzZ6Ynh0WURrQ2VFUElabV9aS0Z3NHc1aXFMdlVSaWpGdmlEYjZrcmhFSVhxMkVDN1g0UjJJNGpTMHlKbld2c2Z4QS02dzFfZ0lhSExzeF9tSFlsWGhCV3UxdkxKWnp1cHMzaDFOclc2VFV0MjY4UTN2R1dEX2dPNFVvX0dneVNjRDhBcVlMaXF4YV9KUXRReFpzMEdjSUR1SWNqZmxBQk1pa2RvQ1hZeGdJVFByWkplLTFKVlF5R2xaM2o0eW12S1NwWFNtcw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "title": "ISRO, IN-SPACe Face Rocket Transfer Row",
+   "agency": "isro",
+   "mission": null,
+   "publishedAt": "2026-09-08T02:55:30.000Z",
+   "summary": "Reports describe a disagreement between ISRO and the space regulator IN-SPACe over transferring rocket technology to private industry.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Rediff",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQ1lRZVUxakRiRWhfcTlNdUZ2S2lKdjdfZC04NjVodW5XTnRXZkM5NGMxM2laWVFURkhRTlNaVGlyMjY3eFZGa01helluN0Rnck45cGVCZmFZWmpFQ04ydzQ4LXRZalV1WV9rbE15cVljWkxMd3ktOVJxb09oa0NzRGpIV3RXVi1BdEptamtkRdIBkgFBVV95cUxNR1ptdGpVR183TkJ5aGhoR1hnZVhMTDlHNU91WVM4SF9XNE1mN0hTdlVUaVY5UEtCbUE0aHNLRnpMRmdCeldmUGF1aEVKSHBKSVdfdWlqTlJiUWptTmxyQ2cyWkJhaVUydFlPd19RRVo3YUdGU2lNaC1KZ19RNXFvY2dSRnVjbWZCcFJEeTRCY0tmZw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "title": "This is the first ever close-up image of Earth’s ‘mini moon’. We could soon have samples back on Earth",
+   "agency": "cnsa",
+   "mission": "Tianwen Program",
+   "publishedAt": "2026-09-07T09:01:18.000Z",
+   "summary": "China released the first-ever close-up image of Kamo'oalewa, Earth's quasi-satellite 'mini moon' and the sample-return target of the Tianwen-2 spacecraft.",
+   "images": [],
+   "sources": [
+    {
+     "name": "BBC Sky at Night Magazine",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYjNLN1p6Y3dsVUgwb1JvV0t0d0piV0JrQnI3UEp6RktPZFl5Q1FzQ201UnRVTUdJWThfNS1KQl9Bb196eW5KVHBSeHF1N3BRUWsyU0h1TjJ0YTRLNW5VeVFEM3lBTEgxazJaQll2ZUlnVFdqSk9WRXpYQ2J3NlczYXc4X00?oc=5"
+    }
+   ]
+  }
+ ]
+}
