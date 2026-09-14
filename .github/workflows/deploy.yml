@@ -1,0 +1,60 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  # Data refreshes arrive as a workflow_dispatch on main, bridged from
+  # data-branch pushes by redeploy-on-data.yml — deploying directly off
+  # the data branch is blocked by the github-pages environment's
+  # deployment-branch policy (main only).
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Always build the code from main, whichever branch triggered us.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Overlay latest news data from the data branch
+        run: |
+          if git fetch origin data; then
+            git checkout FETCH_HEAD -- public/data && echo "data overlaid"
+          else
+            echo "no data branch yet — deploying with empty state"
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

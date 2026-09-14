@@ -1,0 +1,22 @@
+name: Redeploy on data refresh
+
+# The github-pages environment only permits deployments from main, so a
+# Deploy run triggered by a data-branch push gets rejected. This bridge
+# catches the data push and re-dispatches Deploy on main (dispatching a
+# workflow is one of the things GITHUB_TOKEN *is* allowed to trigger);
+# Deploy then overlays the fresh data branch as usual.
+on:
+  push:
+    branches: [data]
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch Deploy on main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main -R "${{ github.repository }}"

@@ -1,0 +1,126 @@
+{
+  "agencies": {
+    "nasa": { "label": "NASA", "color": "#4A7BD0" },
+    "esa": { "label": "ESA", "color": "#D97706" },
+    "jaxa": { "label": "JAXA", "color": "#C0344B" },
+    "isro": { "label": "ISRO", "color": "#7C9F35" },
+    "cnsa": { "label": "CNSA", "color": "#B45309" },
+    "nsf-doe": { "label": "NSF–DOE", "color": "#8B5CF6" }
+  },
+  "feeds": [
+    {
+      "agency": "nasa",
+      "mission": null,
+      "name": "NASA News",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+    },
+    {
+      "agency": "nasa",
+      "mission": null,
+      "name": "NASA Image of the Day",
+      "url": "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
+    },
+    {
+      "agency": "nasa",
+      "mission": "James Webb Space Telescope",
+      "name": "ESA/Webb",
+      "url": "https://esawebb.org/rss/feed.xml"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Hubble Space Telescope",
+      "name": "ESA/Hubble",
+      "url": "https://www.esahubble.org/rss/feed.xml"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Artemis",
+      "name": "NASA Artemis Blog",
+      "url": "https://blogs.nasa.gov/artemis/feed/"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Mars",
+      "name": "NASA Mars News",
+      "url": "https://mars.nasa.gov/rss/api/?feed=news&category=all&feedtype=rss"
+    },
+    {
+      "agency": "nasa",
+      "mission": null,
+      "name": "JPL Photojournal",
+      "url": "https://photojournal.jpl.nasa.gov/rss/new"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Nancy Grace Roman Space Telescope",
+      "name": "Google News: Roman",
+      "url": "https://news.google.com/rss/search?q=%22Nancy+Grace+Roman+Space+Telescope%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Jupiter & Outer Planets",
+      "name": "Google News: Jupiter missions",
+      "url": "https://news.google.com/rss/search?q=%22Europa+Clipper%22+OR+%22Juno+spacecraft%22+OR+%22Dragonfly+mission%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Solar Missions",
+      "name": "Google News: Parker Solar Probe",
+      "url": "https://news.google.com/rss/search?q=%22Parker+Solar+Probe%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "esa",
+      "mission": null,
+      "name": "ESA Space Science",
+      "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science"
+    },
+    {
+      "agency": "esa",
+      "mission": null,
+      "name": "ESA Top News",
+      "url": "https://www.esa.int/rssfeed/TopNews"
+    },
+    {
+      "agency": "esa",
+      "mission": "Solar Missions",
+      "name": "Google News: Solar Orbiter",
+      "url": "https://news.google.com/rss/search?q=%22Solar+Orbiter%22+spacecraft&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "esa",
+      "mission": "Jupiter & Outer Planets",
+      "name": "Google News: JUICE",
+      "url": "https://news.google.com/rss/search?q=%22Jupiter+Icy+Moons+Explorer%22+OR+%22JUICE+spacecraft%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "jaxa",
+      "mission": null,
+      "name": "JAXA Press Releases",
+      "url": "https://global.jaxa.jp/rss/press.rdf"
+    },
+    {
+      "agency": "jaxa",
+      "mission": null,
+      "name": "JAXA Topics",
+      "url": "https://global.jaxa.jp/rss/new.rdf"
+    },
+    {
+      "agency": "isro",
+      "mission": null,
+      "name": "Google News: ISRO",
+      "url": "https://news.google.com/rss/search?q=ISRO+mission&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "agency": "cnsa",
+      "mission": null,
+      "name": "Google News: China space program",
+      "url": "https://news.google.com/rss/search?q=CNSA+OR+%22Chang%27e%22+OR+Tianwen+OR+%22Tiangong%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "agency": "nsf-doe",
+      "mission": "Vera C. Rubin Observatory",
+      "name": "Google News: Rubin Observatory",
+      "url": "https://news.google.com/rss/search?q=%22Vera+Rubin+Observatory%22+OR+%22Rubin+Observatory%22&hl=en-US&gl=US&ceid=US:en"
+    }
+  ]
+}
