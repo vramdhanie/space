@@ -1,0 +1,668 @@
+{
+  "generatedAt": "2026-10-19T16:33:34.122Z",
+  "failedFeeds": [],
+  "missions": [
+    {
+      "agency": "nasa",
+      "mission": "Nancy Grace Roman Space Telescope",
+      "profile": "Wide-field infrared survey telescope with a Hubble-class mirror but a field of view roughly one hundred times larger, built to study dark energy and find exoplanets through microlensing and direct imaging.",
+      "status": "Commissioning; main instrument checked out",
+      "launched": "Sep 2026",
+      "expected": "5-year primary mission; propellant for ~22 years"
+    },
+    {
+      "agency": "nasa",
+      "mission": "James Webb Space Telescope",
+      "profile": "NASA/ESA/CSA infrared flagship observing from Sun–Earth L2, covering everything from the first galaxies to exoplanet atmospheres.",
+      "status": "Operating",
+      "launched": "25 Dec 2021",
+      "expected": "20+ year propellant lifetime"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Hubble Space Telescope",
+      "profile": "The veteran NASA/ESA optical and ultraviolet observatory in low Earth orbit, still producing frontline science in its fourth decade.",
+      "status": "Operating",
+      "launched": "24 Apr 1990"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Artemis",
+      "profile": "NASA's programme to return astronauts to the Moon with commercial and international partners. Artemis II, the first crewed flight, splashed down on 10 April 2026; Artemis III hardware is now being stacked at Kennedy.",
+      "status": "Artemis III in preparation"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Jupiter & Outer Planets",
+      "profile": "Europa Clipper is en route to assess the habitability of Jupiter's moon Europa, arriving in 2030; ESA's JUICE mission follows to the icy moons in 2031.",
+      "status": "In transit",
+      "launched": "Oct 2024 (Clipper)"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Solar Missions",
+      "profile": "Parker Solar Probe flies repeated record-close passes through the Sun's corona to trace how the solar wind is heated and accelerated.",
+      "status": "Operating",
+      "launched": "12 Aug 2018",
+      "expected": "Extended operations"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Mars",
+      "profile": "NASA's surface fleet — the Perseverance and Curiosity rovers — continues exploring Jezero and Gale craters, with orbiters relaying data overhead.",
+      "status": "Operating; Perseverance set Mars distance record Oct 2026"
+    },
+    {
+      "agency": "nasa",
+      "mission": "International Space Station",
+      "profile": "Continuously crewed orbital laboratory operated with international partners, hosting rotating crews and microgravity research. Crew-13 took over in October 2026 after Crew-12 returned.",
+      "status": "Operating",
+      "launched": "First module 1998",
+      "expected": "Operations planned through 2030"
+    },
+    {
+      "agency": "esa",
+      "mission": "BepiColombo (Mercury)",
+      "profile": "Joint ESA/JAXA mission carrying two orbiters to Mercury. After an eight-year cruise it is now in its arrival phase, ahead of orbit insertion.",
+      "status": "Arriving at Mercury",
+      "launched": "20 Oct 2018",
+      "expected": "1-year science mission, extendable"
+    },
+    {
+      "agency": "esa",
+      "mission": "Earth Observation",
+      "profile": "ESA's Earth-watching fleet: the Copernicus Sentinels monitor land, ocean and atmosphere, now joined by Sentinel-3C and the FLEX Earth Explorer, which will map plant fluorescence globally.",
+      "status": "Operating; Sentinel-3C returned first images Oct 2026"
+    },
+    {
+      "agency": "esa",
+      "mission": "Solar Missions",
+      "profile": "Solar Orbiter studies the Sun at close range and from progressively tilted orbits, returning the first good views of the solar poles.",
+      "status": "Operating",
+      "launched": "10 Feb 2020"
+    },
+    {
+      "agency": "isro",
+      "mission": "Gaganyaan",
+      "profile": "India's human spaceflight programme, working toward its first crewed orbital mission through uncrewed test flights and recovery testing.",
+      "status": "In development; CM–SM separation tests completed for uncrewed G1"
+    },
+    {
+      "agency": "isro",
+      "mission": "EOS-05",
+      "profile": "Earth observation satellite providing imaging over the Indian region from geostationary orbit.",
+      "status": "In geostationary orbit",
+      "launched": "2026"
+    },
+    {
+      "agency": "isro",
+      "mission": "LVM3",
+      "profile": "India's heaviest operational launch vehicle, used for Chandrayaan-3 and slated for Gaganyaan, powered by the CE20 cryogenic upper stage.",
+      "status": "Operational"
+    },
+    {
+      "agency": "cnsa",
+      "mission": "Chang'e Lunar Program",
+      "profile": "China's robotic lunar programme. Chang'e-6 returned the first far-side samples in 2024; Chang'e-7 and -8 target the lunar south pole ahead of a planned research station.",
+      "status": "Ongoing; Chang'e-7 postponed"
+    },
+    {
+      "agency": "cnsa",
+      "mission": "Tianwen Program",
+      "profile": "China's planetary exploration line: Tianwen-1 orbits Mars, Tianwen-2 is en route to sample the quasi-satellite Kamo'oalewa, and Tianwen-3 aims to return samples from Mars.",
+      "status": "Ongoing",
+      "expected": "Tianwen-3 launch targeted 2028; Mars sample return around 2031"
+    },
+    {
+      "agency": "nsf-doe",
+      "mission": "Vera C. Rubin Observatory",
+      "profile": "8.4-metre survey telescope in Chile with the largest digital camera ever built, imaging the entire southern sky every few nights.",
+      "status": "Survey operations",
+      "expected": "10-year Legacy Survey of Space and Time"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Earth Observation",
+      "profile": "NASA's Earth-observing satellites, including the NASA/USGS Landsat series, track land, ice, ocean and atmosphere, with results published through NASA's Earth Observatory.",
+      "status": "Operating"
+    },
+    {
+      "agency": "esa",
+      "mission": "Jupiter & Outer Planets",
+      "profile": "ESA's Jupiter Icy Moons Explorer (Juice) is cruising to Jupiter using a series of planetary gravity assists, to study Ganymede, Callisto and Europa from 2031.",
+      "status": "In transit; Earth flyby completed 28 Sep 2026",
+      "launched": "14 Apr 2023"
+    },
+    {
+      "agency": "esa",
+      "mission": "Mars",
+      "profile": "Mars Express, ESA's longest-serving Mars orbiter, images and maps the planet's surface, subsurface and atmosphere.",
+      "status": "Operating",
+      "launched": "2 Jun 2003"
+    },
+    {
+      "agency": "jaxa",
+      "mission": "XRISM",
+      "profile": "JAXA-led X-ray Imaging and Spectroscopy Mission, built with NASA, performing high-resolution X-ray spectroscopy of hot cosmic plasmas, from galaxy clusters to compact binary stars.",
+      "status": "Operating",
+      "launched": "Sep 2023"
+    },
+    {
+      "agency": "nasa",
+      "mission": "COSI",
+      "profile": "Compton Spectrometer and Imager, a NASA Small Explorer gamma-ray telescope being built at UC Berkeley to map how chemical elements form in the Milky Way.",
+      "status": "In integration"
+    },
+    {
+      "agency": "nasa",
+      "mission": "Chandra X-ray Observatory",
+      "profile": "NASA's flagship X-ray observatory, studying hot and energetic regions of the universe such as black holes, supernova remnants and galaxy clusters from a high elliptical Earth orbit.",
+      "status": "Operating",
+      "launched": "23 Jul 1999"
+    },
+    {
+      "agency": "cnsa",
+      "mission": "Tiangong Space Station",
+      "profile": "China's modular space station in low Earth orbit, continuously crewed by rotating Shenzhou crews and preparing to host its first foreign astronaut from Pakistan.",
+      "status": "Operating",
+      "launched": "Apr 2021 (core module)"
+    },
+    {
+      "agency": "isro",
+      "mission": "NVS-03",
+      "profile": "Second-generation satellite for India's NavIC regional navigation system, part of the NVS series replacing the original IRNSS satellites.",
+      "status": "Launch planned 15–20 Oct 2026"
+    },
+    {
+      "agency": "nasa",
+      "mission": "DAVINCI",
+      "profile": "Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging: a NASA Venus mission whose descent probe will study the planet's deep atmosphere.",
+      "status": "In development"
+    },
+    {
+      "agency": "esa",
+      "mission": "Smile",
+      "profile": "Solar wind Magnetosphere Ionosphere Link Explorer, a joint ESA–Chinese Academy of Sciences mission imaging how Earth's magnetosphere responds to the solar wind.",
+      "status": "Science operations",
+      "launched": "19 May 2026"
+    },
+    {
+      "agency": "nasa",
+      "mission": "PRIMA",
+      "profile": "PRobe far-Infrared Mission for Astrophysics, a far-infrared observatory and the first mission in NASA’s new Probe Explorers class of astrophysics missions.",
+      "status": "Selected Sep 2026; in development"
+    },
+    {
+      "agency": "isro",
+      "mission": "TRISHNA",
+      "profile": "Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment, a joint ISRO–CNES mission to map land and water surface temperature for water-use and climate monitoring.",
+      "status": "In development"
+    },
+    {
+      "agency": "esa",
+      "mission": "Euclid",
+      "profile": "ESA's wide-field space telescope mapping the shapes and distribution of billions of galaxies across a third of the sky to probe dark matter and dark energy.",
+      "status": "Operating",
+      "launched": "1 Jul 2023",
+      "expected": "6-year survey"
+    },
+    {
+      "agency": "jaxa",
+      "mission": "MMX (Martian Moons eXploration)",
+      "profile": "JAXA mission to Mars's moons Phobos and Deimos that will land on Phobos, collect a surface sample and return it to Earth — the first sample return from the Martian system.",
+      "status": "Launch scheduled 20 Oct 2026 (JST) on H3 F10",
+      "expected": "Sample return to Earth planned for 2031"
+    },
+    {
+      "agency": "isro",
+      "mission": "Solar Missions",
+      "profile": "Aditya-L1, India's first dedicated solar observatory, studies the Sun's corona, chromosphere and solar wind from a halo orbit around the Sun–Earth L1 point.",
+      "status": "Operating",
+      "launched": "2 Sep 2023"
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "title": "Curiosity captures dawn and wind-carved ridges on Mars",
+      "agency": "nasa",
+      "mission": "Mars",
+      "publishedAt": "2026-10-19T16:03:51.000Z",
+      "summary": "NASA's Curiosity rover captured the Martian dawn along with yardangs — elongated ridges formed by wind erosion — in a close-up from a panorama released on 6 October 2026. NASA describes it as the most detailed view yet of these distant wind-carved cliffs.",
+      "images": [],
+      "sources": [
+        {
+          "name": "NASA News",
+          "url": "https://www.nasa.gov/image-article/martian-dawn/"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Euclid discovers its first new comet",
+      "agency": "esa",
+      "mission": "Euclid",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "summary": "ESA's Euclid space telescope has discovered its first previously unknown comet, designated C/2026 S1 (Euclid), in images taken between 16 and 24 September 2026.",
+      "images": [
+        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/comet_c_2026_s1_euclid_streaks_across_the_sky/27582276-1-eng-GB/Comet_C_2026_S1_Euclid_streaks_across_the_sky_card_full.gif"
+      ],
+      "sources": [
+        {
+          "name": "ESA Space Science",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Europa Clipper continues cruise toward Jupiter",
+      "agency": "nasa",
+      "mission": "Jupiter & Outer Planets",
+      "publishedAt": "2026-10-19T11:17:48.000Z",
+      "summary": "Reports this week covered newly released orbital telemetry for NASA's Europa Clipper as the spacecraft continues its cruise phase, along with its timeline for arrival at Jupiter.",
+      "images": [],
+      "sources": [
+        {
+          "name": "cristinaiglesias.com",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONmxNY3luVlZDcFhhT29naUIwaHF5Qk95dWRhdDl2TzRwSmpVeEhfMEpqdW5DdGlYNGdyRHBnQnZaVlNmRENLS1QtQUJGb0FrdUVWcFNHdkVNbW1kbGxYendyc1lzd09ZRUZDVEZPZWlZeVJCQms4MW9XczNENW5pVmxubGZFVGVyd1k5YUJKa0d0WjZSOUFydUk2SVMwOE1YNXc5dkdyeERwMjVGMHpvWmJuLXJKYWxzdjA3aGFIUng4Zy1QUjNuQ0NKaDJWdi1NRmNzNVV5cUVadXFVYkwxUC1rbkxFOHY2emRxeS15S2JLbjhNR0E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ISRO tests methane-fuelled rocket engine",
+      "agency": "isro",
+      "mission": null,
+      "publishedAt": "2026-10-19T05:24:36.000Z",
+      "summary": "ISRO has tested a methane-fuelled rocket engine, a propellant choice associated with reusable launch vehicles.",
+      "images": [],
+      "sources": [
+        {
+          "name": "India Today",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY1BYRWZIZy1femE2Z2xWeTQ2TkhGT2ZQa0dhQUd1UGYwbVM3Yk5pcFRHYWMteTFKRm8xRmw5UXExb3J0amVZU01YMkkwX1N3ZUpBNGMzdkM4d1ZlWUhKME8zVUdMLUYtWG5MZlVrZzV2cnVmRmxnUnFZOGtVbDlmVXE0Y3NNNnpsUTBWSXYxNDZFWDJMTURXc0RVNU1HRHNEM0tRMlNyZEhHc3hwZ09sWVlHTmJWbzlHZERnbURaRXhrTldObzhXOEYxR0FqSzAycUxieUtB0gHbAUFVX3lxTE0xNVc5eVY0a1hnRWdqYjVuNlQ5X1FwVDlfcTB6U212QzVpa2JNbW5XSU5GNzlEMlNiaVpxVUpwc21FS3M2U0wxNWd6SG42aEo1ck1HaFJhUnZxM1U2Nzd6ZS1HRkRuZmJnelNfaUxDYTVXQ2Q4X0ExODZqTDdDSGFlUEhadUxDY1VaVTRsT3hHUUMtLVZPNEliNjJCR09UZlVfczl4cEV5YjRvMlNFb2ZlRWNuNEgtRURWb2gzUzZkLW5tQzdLTEpsbDFISHMyM3hCRExkbjBQbjhIcw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chandra points to possible origin of 'Treble Clef' radio waves",
+      "agency": "nasa",
+      "mission": "Chandra X-ray Observatory",
+      "publishedAt": "2026-10-19T04:05:00.000Z",
+      "summary": "Astronomers used NASA's Chandra X-ray Observatory to investigate the cause of an unusual formation of radio waves nicknamed the 'Treble Clef' for its resemblance to the musical symbol, which is also an X-ray-hot source. The image was featured as NASA's Astronomy Picture of the Day on 19 October.",
+      "images": [
+        "https://www.nasa.gov/wp-content/uploads/2026/10/trebleclef-lg.jpg"
+      ],
+      "sources": [
+        {
+          "name": "NASA Image of the Day",
+          "url": "https://www.nasa.gov/image-detail/shape-3601-3601/"
+        },
+        {
+          "name": "NASA News",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Autumn colour in Poland's Bieszczady Mountains seen from orbit",
+      "agency": "nasa",
+      "mission": "Earth Observation",
+      "publishedAt": "2026-10-19T04:01:00.000Z",
+      "summary": "A NASA Earth Observatory image shows fall colour across the forested slopes of Bieszczady National Park in Poland, where patches of polonina — high-mountain meadow — have turned tan.",
+      "images": [],
+      "sources": [
+        {
+          "name": "NASA News",
+          "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Roman team checks out main instrument and sharpens telescope focus",
+      "agency": "nasa",
+      "mission": "Nancy Grace Roman Space Telescope",
+      "publishedAt": "2026-10-18T16:07:00.000Z",
+      "summary": "NASA's Nancy Grace Roman Space Telescope team has checked out the observatory's main instrument and refined the telescope's focus during commissioning. Coverage reports the telescope's performance is exceeding expectations by nearly 30%.",
+      "images": [],
+      "sources": [
+        {
+          "name": "NASA Science (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd2ZTSEpaVW1hellPOHdvOUIzanVZRUZQb3otdkdCOTYyVUFXS0FIYXAzVUtVcWlBUXBRallVTHJMYjFBa2hPSGR5bXZPc0pJZ0NsZ2FmRm52NXJQdUt5WHlxSEF2S3hyaUpmZ3FOeUJ0UXFWTVVEcV9kcjVBQ3RDVEFFVEdzdTBjb0w2M2JDcEgxTjh0R3dvdldKdV9sYzB2Y2tfNWxuMG1pelU1Tm5OUzRzS21OcnZF?oc=5"
+        },
+        {
+          "name": "Science Daily",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rUHNmbGg4TlA5cnRpZ2xVVGJGbnFRTHhXRE1EZHFCeHIyNk1JUFpoQmppd3gxOEQwbS1NQkFEZ3hmQnJZWFpYRWxQYjF3enNHRVp1bk1ib1I3ak9DcUE1NVRlSC0zSVB6bG1jTFRGSQ?oc=5"
+        },
+        {
+          "name": "The Brighter Side of News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdmdkdTRPNHJ1NTAxVzBZcGs3YTVxMkplOURhdWxNb0xzQTYtSnFSdWhEREVRODZXR3FOUEJnY0FlMWd1ZmVlSUxuR3Fnc290cVF6dHpiMFV6VHRyeUVmV0JfZUMzMkV0LUtVUVBFOF9qYXBvQVRhSlo4NVpEb1ZsM2J3S2UweEh2YXBHWEtoYks3c2FDRUtOVGR3TzRzMlR4WnMxNXlNSWlDMno5QkFWRHAtcTVFSVFZTnFuUw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "JAXA sets launch time for MMX Phobos sample-return mission",
+      "agency": "jaxa",
+      "mission": "MMX (Martian Moons eXploration)",
+      "publishedAt": "2026-10-18T05:00:00.000Z",
+      "summary": "JAXA has scheduled the launch of the Martian Moons eXploration (MMX) spacecraft on H3 Launch Vehicle Flight No. 10 from Tanegashima Space Center at 04:41 JST on 20 October 2026 (19 October in Europe). MMX is set to be the first mission to collect a sample from Mars's moon Phobos and return it to Earth.",
+      "images": [
+        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/mmx_from_launch_to_phobos/27573728-1-eng-GB/MMX_from_launch_to_Phobos_card_full.png"
+      ],
+      "sources": [
+        {
+          "name": "JAXA Press Releases",
+          "url": "https://global.jaxa.jp/press/2026/10/20261018-1_e.html"
+        },
+        {
+          "name": "ESA Space Science",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Chang'e-6 samples suggest Earth's tides shaped the Moon's two faces",
+      "agency": "cnsa",
+      "mission": "Chang'e Lunar Program",
+      "publishedAt": "2026-10-17T08:45:20.000Z",
+      "summary": "Analysis of far-side rocks returned by China's Chang'e-6 suggests Earth's tidal forces pushed the Moon's crust toward its far side, offering an explanation for the differences between the lunar near and far sides.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Science Daily",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93OWtHaElTX2REcE9RZTU1RnlhVTl3eWNteXBaeHZ1M1BBakREeFZvLTlLbmJKN0NLUGcyWTZGXzRLaHFFaFFqbmthYnNFNGVwalFJYTVrTW8tc0RQMUxCUFQ4bjBKcFNFSkZRbjlaTQ?oc=5"
+        },
+        {
+          "name": "Martin Cid Magazine",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdWs1T24wNnJqWWNOTVdyakh2RDFqd1R6dUkyVkNhMnZkdmVaTjdvcG9iUDRINzBxc2RJVXRPak12WUtiOUxLUC1QZ3dLeWs1VEM4RC02MnVjYmkwY05NNmYzdzNWcUxlT2hpMFhFVFJLaGJCUkx0dllHdGZtZ05OUjdDeHZHMVN5QkFNb3M2Yng?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ISRO completes Gaganyaan crew module–service module separation tests",
+      "agency": "isro",
+      "mission": "Gaganyaan",
+      "publishedAt": "2026-10-17T07:27:57.000Z",
+      "summary": "ISRO has completed separation tests between the Gaganyaan crew module and service module, a key qualification step ahead of the programme's first uncrewed orbital mission, G1.",
+      "images": [],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDR1Si1DOVVaREI2dGRBYWZGaTNYNzg2OFhhTm1EWGFXeGJLSm4xVnlYRWNqRE8tSi1LSnJoMWtkWEpRc3VRaTBHd3JLWHhwcWtGeU00ZHctdnRRT1B2WVh2NlZBUklLMUFURWR2Q0xHNnIyZnlrc1FETGNsVUZiLTlBZ0NUTWN6azAwQ2hyZ21QMDNXUG51aFlpRU45b3I5Um9UXy1uSnlfd3ZDakl0VFZOQmZSTHVmay1wMUpsa3I0TXVVLXfSAcwBQVVfeXFMT3Y5alJ0WFZHUllMQW1MMkhUbHo1a1VMN1EtbFY2ZHZxU0VFYnlzUURaZW5aek9YNlA5MEwtbzZzMkxsV2Z5TlcxWkJzaEdMMnJ4eTNfb3Z5NVhmcENSdmczUE5yYnoxODFYdHJTTEgtbmllR1RvMnlRT2labXZ6X2I0d01QSXAtdl9wWVdfRUZ1X2Y2Z0RxTjdjSk85N2FQVHFxSWxVaGxMM1ZYNnBLR0M0UVJJSFRBYVptWHlBc3hyNVlHWXVRUm5vaUJF?oc=5"
+        },
+        {
+          "name": "BusinessLine",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdmhyWjNGbFZkenNaUmZMMldPUDNXRFFMaDhyYTcxNXJlX2I0V1dPZFFYeHk4aDhYb1lWVTNTVmJUeXhEMElCWEF6TlkzaEYxamZlZ0VFYUhyMlhYUGV1MmdEWU9uTmRmUVVndng0czh5cDBqWnQ3cXRnTDlLWVZlUjZXblRZWlQyblNwRy1PWnY3d0wxQkhfbjNOZlY2TGplX2ZMOE55UGRsTjE4X3RkYVVKR2pkTGEtOEFYNmM2WnRPNWF2Sy1DSm5ONDEtbDVETzhURnlqR2NiN3NWUWw4WTFZdDFmQdIB7AFBVV95cUxNOURIR3ZlNm1IRHN2M0ZXbTZtWDh4VlpVdkZXdjZ3eDhCcWRMc0pLVkpRVk9wQmRRSWU1QVc5amkzSUVaWS1tYXc5ZlVSYUNBa3pOM2pHVHRUSVFaZzdvaGtTVEdIbV8xQkZ5Z3lCQnNYNHdrNjNoZnNkSXpEU1RsaThra09xQnViekxMR3MtaGktNS1QOWNWdXNSY1JGV3ByWlVKVmJMU1llYjdQTWRsVk1XSzBtR1ZiY1pKX1pGcEpQM0lPc2Q4N3NIMW1BZ0NQbDdfM2tyaGxTQkhLRVY3dUZXUjlFMXk2T1N2RA?oc=5"
+        },
+        {
+          "name": "India Today",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmZ1UDRveDF4WFdZcHptekFDRVdkWElra3hQcmM3SVRmcHItb0RMZkh5cmxnb2ZRa2xBWEM4a0Z3WmFhcXRybjQ4V2JFaHFsX3RJZmRuZFZHVWZpLVhWWlFhczRxZ3dWNng0aHZXQ29vNTMwOElpc2lZSVNzQ0RaUVZoSG1mdXJDdm9BaXNQS2R3aHk4S0p2OWxoSlh6cnlzdWFEdDNPbGJYWnNEVFBSdndBMEczZzJ3X1ZWM2o5Z0Z2UkFwVXg0ODZacU4tTE5E0gHWAUFVX3lxTE4zUTl5V200MzZMWmxXLWQzTVI5aURPMVBTUUpqRWNNUlV4Z3ZQZmhBVS11cDZwRHdrLWQzcVkyQkFaQ0pvWUM2Q1FwNlo5SldKQ3hhbUwtb1pkVVlDcDhWS3oyZURuRndzd2tOdzV3QjRKa01ZUW1Tc2JxM2lNZDVFWkRpRW01TUNtdHF0eEp5aTJKZzN3Uk5OdjR6YU5aREJtZTM2S19PYlBIRDNibE1RaWRUazNuRDE2aFhMM0xwbk53aTZWaHJKV2p6QS1ITVZFQkJab0E?oc=5"
+        },
+        {
+          "name": "SSBCrack",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMUlRMHM3UnBlRUFVT2N0THVMa0ZZekMyQVNXQXdKVFBteXlUUE0yTV9CSFI1d1VWczlaRVFPbV9wN0lDVE1xb1pRcUhZUzRKNVo4dHZWNU05WFlQTVNjNTZyMWk0MS1TVXFGRFV6WEs1RkhGSVNWQTlBSFlJZW0wVlRZa3Z1RjI2ZnNoWjlPVERfaWJJSkpJbU10cDFVTTk0YmhLeXVHYVpXNlhjZTFzdUh4RTRFbktjNjZ3dWtKdlRrS0N4S25TWEU3WkE4eXA4ZEIzaWJR?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Aditya-L1 solar observations highlighted",
+      "agency": "isro",
+      "mission": "Solar Missions",
+      "publishedAt": "2026-10-17T04:44:55.000Z",
+      "summary": "Coverage this week highlighted the solar science capability ISRO has gained through its Aditya-L1 solar observatory.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Rediff",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0trVEFIMk1vRU1kZ3Q2WHY2QWpPLVMtSE9pRmN5S0g5cnRqcGVjY1dlTks2UnByb1dnc0VpaThhYVNFblNrMmxvM3dSNUZqRXVFR1ZKc0ZBci1pdjBZT2lkVWxpSmZLUkVSN2tGcnZMUnJCT3U5WFRPbGI2eWdreTBmb1JFY0hGcFI2MdIBjwFBVV95cUxPQXZQcEowX3I1V081bEw2eUdPWlpVcVl5LXlJVlRGNWFSZ0EyWktPLW95Y1E0Vno1U0tackFjdXhRRnRoTzItTlBNcXNrbE9qQkE2a0FjYWlYOUp3ZTRPWEtwSEZYNi1SVFp6R0lpMTZ4S3d5dU5Dc2VRQWZJME1QdW1ySVBIZ3pBM2s2RnBSWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Underwater view of Orion's heat shield after Artemis II splashdown",
+      "agency": "nasa",
+      "mission": "Artemis",
+      "publishedAt": "2026-10-16T16:33:00.000Z",
+      "summary": "NASA released imagery captured by U.S. Navy divers of the Orion spacecraft's heat shield underwater shortly after the Artemis II splashdown on 10 April 2026.",
+      "images": [
+        "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg"
+      ],
+      "sources": [
+        {
+          "name": "NASA Image of the Day",
+          "url": "https://www.nasa.gov/image-detail/afs-8-101-1320/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Hubble images edge-on spiral galaxy NGC 1827",
+      "agency": "nasa",
+      "mission": "Hubble Space Telescope",
+      "publishedAt": "2026-10-16T12:42:08.000Z",
+      "summary": "A new NASA Hubble Space Telescope image shows the edge-on intermediate spiral galaxy NGC 1827, roughly 37 million light-years away in the constellation Columba.",
+      "images": [],
+      "sources": [
+        {
+          "name": "NASA News",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "NASA invites ISRO to take part in Moon base programme",
+      "agency": "isro",
+      "mission": null,
+      "publishedAt": "2026-10-16T11:13:00.000Z",
+      "summary": "Indian media report that NASA has invited ISRO to participate in its lunar base programme.",
+      "images": [],
+      "sources": [
+        {
+          "name": "The Indian Panorama",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYXZwc2NxNlNpT2ZaSzdvQ3Q0UkJZUHZrX0p4QTBLSzdGSHNDQlpITmticWwzcTV2aTZ1OUY3cmRDNU1wUUtFX0trcGU4Y0xpRXhpOW9WWHBQei1xa1ZCVDVIczRRVUxJODdQNnc1RXlYb0dWSXBKRWY2cTdSOV96blRFRWlOOG1oY01uZFlzbUF1ZGZEZ1pmYnNBRXlQUkhxb1RNS01uWXlJQVVl?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Earth from Space: West Antarctica",
+      "agency": "esa",
+      "mission": "Earth Observation",
+      "publishedAt": "2026-10-16T08:00:00.000Z",
+      "summary": "ESA released an image of part of West Antarctica captured by Copernicus Sentinel-3 on 30 September 2026.",
+      "images": [
+        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/earth_from_space_west_antarctica/27579693-1-eng-GB/Earth_from_Space_West_Antarctica_card_full.jpg"
+      ],
+      "sources": [
+        {
+          "name": "ESA Top News",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_West_Antarctica"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "SpaceX CRS-35 cargo mission launches to the space station",
+      "agency": "nasa",
+      "mission": "International Space Station",
+      "publishedAt": "2026-10-14T15:19:00.000Z",
+      "summary": "A SpaceX Falcon 9 launched NASA's SpaceX CRS-35 Dragon cargo mission on 13 October 2026; the sunlit exhaust plume against the predawn sky was photographed from Cocoa Beach, Florida.",
+      "images": [
+        "https://www.nasa.gov/wp-content/uploads/2026/10/nhq20261013-admin-0005orig.jpg"
+      ],
+      "sources": [
+        {
+          "name": "NASA Image of the Day",
+          "url": "https://www.nasa.gov/image-detail/nasas-spacex-crs-35-launch/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "ESA image: Where winds blow and lava flows",
+      "agency": "esa",
+      "mission": null,
+      "publishedAt": "2026-10-14T09:00:00.000Z",
+      "summary": "ESA Space Science released a new image titled 'Where winds blow and lava flows'.",
+      "images": [
+        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/where_winds_blow_and_lava_flows/27545666-1-eng-GB/Where_winds_blow_and_lava_flows_card_full.jpg"
+      ],
+      "sources": [
+        {
+          "name": "ESA Space Science",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Where_winds_blow_and_lava_flows"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "TRISHNA: ISRO–CNES thermal infrared mission targeted for 2027",
+      "agency": "isro",
+      "mission": "TRISHNA",
+      "publishedAt": "2026-10-14T08:00:49.000Z",
+      "summary": "An explainer outlines the objectives and features of TRISHNA, the joint ISRO–France thermal infrared Earth-observation satellite targeted for 2027.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Adda247",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWnh4MWhFZm9Ca2FtMlZibm1tWDhVQk9VUUNEbUtjcGpHbmxUSmw5WTZrMGJYYW9kMUhTN1EwU2w1WG5fQTJ0c3FlM0JUVmcyYzFpTWpka1JpVE1aTE10anVtNV9YOG1LUkgtTl9UVERTaUUyZGVzTGVZajRyTFBUQzNfa3llQ2VWX1F3WGdvdllWZmkxNEhzRndEYlpfajVRckRYWjRIWlVRYlA0VkRZ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Juno data reveal a rippling magnetodisk at Jupiter",
+      "agency": "nasa",
+      "mission": "Jupiter & Outer Planets",
+      "publishedAt": "2026-10-13T23:13:00.000Z",
+      "summary": "New data from NASA's Juno spacecraft show that Jupiter's magnetodisk — the disk of plasma and magnetic field around the planet — has a rippling, wavy structure.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Universe Today",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWTc4QjhjNHhrb0FtaFlFRS01TWxWdWNHY01LY1BlcWRURm13azhISlh4MmNyVFdFOVhaekhRcWZSMFhiVTZESFNpUjRBMERUak9ZUkZEQ2hNa3hVdDlsc0dVZkUzUGtLZjdCZE5DN1paQ0llWnBpalEtejV5WFhNUlByY043OEVOTlpJNmwwdS12WnNYMUE0VEQ3VkloWWd2V2E5YVNEVGRvdThJcVZleWN5dXQyRVRwcVBsc19oT3ViTkFY?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Artemis III SLS booster stacking completed",
+      "agency": "nasa",
+      "mission": "Artemis",
+      "publishedAt": "2026-10-13T18:44:03.000Z",
+      "summary": "At NASA's Kennedy Space Center, teams completed integration of the final solid rocket booster motor segments for the Artemis III SLS rocket onto the mobile launcher in a 'short stack' configuration that will be used for a tanking test.",
+      "images": [],
+      "sources": [
+        {
+          "name": "NASA Artemis Blog",
+          "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "NASA-supported small spacecraft launched on Transporter-18",
+      "agency": "nasa",
+      "mission": null,
+      "publishedAt": "2026-10-13T17:52:00.000Z",
+      "summary": "Three NASA-supported small spacecraft, alongside many commercial payloads, were encapsulated in a SpaceX Falcon 9 that launched them to low Earth orbit on 1 October 2026 as part of the Transporter-18 rideshare mission.",
+      "images": [
+        "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261001-ph-spx01-0001orig.jpg"
+      ],
+      "sources": [
+        {
+          "name": "NASA Image of the Day",
+          "url": "https://www.nasa.gov/image-detail/afs-8-101-1315/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Rubin Observatory finds largest ultra-fast spinning asteroid yet",
+      "agency": "nsf-doe",
+      "mission": "Vera C. Rubin Observatory",
+      "publishedAt": "2026-10-13T11:40:07.000Z",
+      "summary": "The NSF–DOE Vera C. Rubin Observatory has detected the largest ultra-fast-rotating asteroid found so far.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0T0hpUzJHNVExUXFiSk4wLWhjX0dIMkxlYzVFZ1lva2R3RnBVRzA4d0FfQ0JKNW1abEYtMXh0VW55VFBST1FZb3dHYklvbEN1MmlBZUxvT2F3UVQ1QlQ3dndZZXJRZnBZRlNrYXVZTC00QWxIY2pDOVpaNA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Solar Orbiter traces the origin of magnetic switchbacks",
+      "agency": "esa",
+      "mission": "Solar Missions",
+      "publishedAt": "2026-10-13T06:00:00.000Z",
+      "summary": "ESA's Solar Orbiter has tracked the origin of magnetic switchbacks — sudden S-shaped kinks in the solar wind's magnetic field — back toward their source on the Sun.",
+      "images": [],
+      "sources": [
+        {
+          "name": "Technology Org",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSWQzcnd0QWtyLUdNc3FUTkhMU0ZsQmYwOEtNNVVoejVOakpWbUIweXVCbnJ4LWpFYlVWYmNGQ0dab3FzcWdsVjQ3UUduLXpKcVg1cDNpU2lPMlliUEVvZ2JkenRxSGN3bTBnSUM5STNNRmZtRHFXQlV3MV90V2pCMHEwVFc5SDd2YTUtTzJ0bS1kd3Z5VkxnQjBSYW9Kei1yZUY0?oc=5"
+        },
+        {
+          "name": "AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczFXck8zcDZ2cGpHX2g2c2RfYlRKd2FsRF9PT01wS0otMlpYdFRDMVlYNVUtbFhuY1lUMGFNUWRSUERYZHZOVjVFVjRWTzE0MkJjclUzOUdhZ0hfbVQxRUpLbTZ1Y2Fqb3liX20taUhHNlZoZ0dndmtrbVpMWnJncFFsWlNwZXdnN0E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Perseverance sets Mars driving-distance record",
+      "agency": "nasa",
+      "mission": "Mars",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "NASA's Perseverance rover passed a distance milestone during a 91.31-metre (299.6-foot) drive on 11 October 2026 (sol 2,006), recognised by Guinness World Records as the rover distance record on Mars. JPL also released an infographic comparing distances driven by rovers on the Moon and Mars.",
+      "images": [],
+      "sources": [
+        {
+          "name": "JPL Photojournal",
+          "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Griffin-1 lunar lander completes environmental testing at JPL",
+      "agency": "nasa",
+      "mission": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Voyager Technologies' Griffin-1 lunar lander completed nearly three months of environmental testing at NASA's Jet Propulsion Laboratory in late September 2026, demonstrating readiness for the conditions of launch and the journey to the Moon.",
+      "images": [],
+      "sources": [
+        {
+          "name": "JPL Photojournal",
+          "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "South Korean radio telescopes to help track ESA's Juice",
+      "agency": "esa",
+      "mission": "Jupiter & Outer Planets",
+      "publishedAt": "2026-10-12T23:51:37.000Z",
+      "summary": "South Korea's radio telescopes will help track ESA's Jupiter Icy Moons Explorer (Juice) as it travels to Jupiter to study its icy moons.",
+      "images": [],
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yUjBzOTM5Vy1pTlRfMUVpaTJZUjNIRXRwcHY1OXhUd3BVc09MQnFWSkhuLXk0dGVheUNER2daUlVwR0o1T1JqQWF3Z3paVVFBOGJXTUdwZw?oc=5"
+        }
+      ]
+    }
+  ]
+}
