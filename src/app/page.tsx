@@ -109,12 +109,30 @@ export default function Home() {
   const [data, setData] = useState<SpaceFile | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // Fetch on load, then refetch hourly and whenever the tab becomes
+  // visible again, so a long-lived tab picks up new refreshes. A failed
+  // refetch keeps the data already shown.
   useEffect(() => {
-    fetch("/data/space.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d) => setData(d))
-      .catch(() => setData(null))
-      .finally(() => setLoading(false));
+    let last = 0;
+    const load = () => {
+      if (Date.now() - last < 60_000) return; // debounce focus bursts
+      last = Date.now();
+      fetch("/data/space.json")
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d) => d && setData(d))
+        .catch(() => {})
+        .finally(() => setLoading(false));
+    };
+    load();
+    const t = setInterval(load, 60 * 60_000);
+    const onVisible = () => {
+      if (document.visibilityState === "visible") load();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => {
+      clearInterval(t);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
   }, []);
 
   return (
