@@ -1,0 +1,516 @@
+{
+ "generatedAt": "2026-11-16T17:10:34.012Z",
+ "failedFeeds": [
+  "ESA Space Science"
+ ],
+ "missions": [
+  {
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "profile": "Wide-field infrared survey telescope with a Hubble-class mirror but a field of view roughly one hundred times larger, built to study dark energy and find exoplanets through microlensing and direct imaging.",
+   "status": "Final commissioning phase",
+   "launched": "Sep 2026",
+   "expected": "5-year primary mission; propellant for ~22 years"
+  },
+  {
+   "agency": "nasa",
+   "mission": "James Webb Space Telescope",
+   "profile": "NASA/ESA/CSA infrared flagship observing from Sun–Earth L2, covering everything from the first galaxies to exoplanet atmospheres.",
+   "status": "Operating",
+   "launched": "25 Dec 2021",
+   "expected": "20+ year propellant lifetime"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Hubble Space Telescope",
+   "profile": "The veteran NASA/ESA optical and ultraviolet observatory in low Earth orbit, still producing frontline science in its fourth decade.",
+   "status": "Operating; NASA exploring commercial servicing",
+   "launched": "24 Apr 1990"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Artemis",
+   "profile": "NASA's programme to return astronauts to the Moon with commercial and international partners. Artemis II flew the first crewed mission in April 2026; under an accelerated plan, Artemis III will send four astronauts to low Earth orbit in 2027 to test critical systems ahead of a lunar landing targeted for 2028.",
+   "status": "Artemis III in preparation; landing targeted 2028"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Jupiter & Outer Planets",
+   "profile": "Europa Clipper is en route to assess the habitability of Jupiter's moon Europa, arriving in 2030; ESA's JUICE mission follows to the icy moons in 2031. NASA's Dragonfly mission to Saturn's moon Titan is planned for 2028.",
+   "status": "In transit",
+   "launched": "Oct 2024 (Clipper)"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Solar Missions",
+   "profile": "Parker Solar Probe flies repeated record-close passes through the Sun's corona to trace how the solar wind is heated and accelerated.",
+   "status": "Operating",
+   "launched": "12 Aug 2018",
+   "expected": "Extended operations"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Mars",
+   "profile": "NASA's surface fleet — the Perseverance and Curiosity rovers — continues exploring Jezero and Gale craters, with orbiters relaying data overhead. The twin ESCAPADE orbiters, which will study how the solar wind strips Mars's atmosphere, are en route after powered Earth flybys.",
+   "status": "Operating; ESCAPADE en route after Nov 2026 Earth flybys"
+  },
+  {
+   "agency": "nasa",
+   "mission": "International Space Station",
+   "profile": "Continuously crewed orbital laboratory operated with international partners, hosting rotating crews and microgravity research. Crew-13 took over in October 2026 after Crew-12 returned.",
+   "status": "Operating",
+   "launched": "First module 1998",
+   "expected": "Operations planned through 2030"
+  },
+  {
+   "agency": "esa",
+   "mission": "BepiColombo (Mercury)",
+   "profile": "Joint ESA/JAXA mission carrying two orbiters to Mercury. After an eight-year cruise it is now in its arrival phase, ahead of orbit insertion.",
+   "status": "Arriving at Mercury",
+   "launched": "20 Oct 2018",
+   "expected": "1-year science mission, extendable"
+  },
+  {
+   "agency": "esa",
+   "mission": "Earth Observation",
+   "profile": "ESA's Earth-watching fleet: the Copernicus Sentinels monitor land, ocean and atmosphere, now joined by Sentinel-3C and the FLEX Earth Explorer, which will map plant fluorescence globally.",
+   "status": "Operating; Sentinel-3C returned first images Oct 2026"
+  },
+  {
+   "agency": "esa",
+   "mission": "Solar Missions",
+   "profile": "Solar Orbiter studies the Sun at close range and from progressively tilted orbits, returning the first good views of the solar poles.",
+   "status": "Operating",
+   "launched": "10 Feb 2020"
+  },
+  {
+   "agency": "isro",
+   "mission": "Gaganyaan",
+   "profile": "India's human spaceflight programme, working toward its first crewed orbital mission through uncrewed test flights and recovery testing.",
+   "status": "In development; CM–SM separation tests completed for uncrewed G1"
+  },
+  {
+   "agency": "isro",
+   "mission": "EOS-05",
+   "profile": "Earth observation satellite providing imaging over the Indian region from geostationary orbit.",
+   "status": "In geostationary orbit",
+   "launched": "2026"
+  },
+  {
+   "agency": "isro",
+   "mission": "LVM3",
+   "profile": "India's heaviest operational launch vehicle, used for Chandrayaan-3 and slated for Gaganyaan, powered by the CE20 cryogenic upper stage.",
+   "status": "Operational"
+  },
+  {
+   "agency": "isro",
+   "mission": "GSLV",
+   "profile": "India's Geosynchronous Satellite Launch Vehicle, a three-stage launcher with an indigenous cryogenic upper stage, used to place communication, navigation and Earth-observation satellites into geosynchronous transfer orbit.",
+   "status": "Operational; cryogenic engine cleared for next flight"
+  },
+  {
+   "agency": "cnsa",
+   "mission": "Chang'e Lunar Program",
+   "profile": "China's robotic lunar programme. Chang'e-6 returned the first far-side samples in 2024; Chang'e-7 and -8 target the lunar south pole ahead of a planned research station.",
+   "status": "Ongoing; Chang'e-7 postponed"
+  },
+  {
+   "agency": "cnsa",
+   "mission": "Tianwen Program",
+   "profile": "China's planetary exploration line: Tianwen-1 orbits Mars, Tianwen-2 is en route to sample the quasi-satellite Kamo'oalewa, Tianwen-3 aims to return samples from Mars, and Tianwen-4 will travel to the Jupiter system and attempt a landing on Callisto.",
+   "status": "Ongoing",
+   "expected": "Tianwen-3 launch targeted 2028; Mars sample return around 2031"
+  },
+  {
+   "agency": "nsf-doe",
+   "mission": "Vera C. Rubin Observatory",
+   "profile": "8.4-metre survey telescope in Chile with the largest digital camera ever built, imaging the entire southern sky every few nights.",
+   "status": "Survey operations",
+   "expected": "10-year Legacy Survey of Space and Time"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Earth Observation",
+   "profile": "NASA's Earth-observing satellites, including the NASA/USGS Landsat series, track land, ice, ocean and atmosphere, with results published through NASA's Earth Observatory.",
+   "status": "Operating"
+  },
+  {
+   "agency": "esa",
+   "mission": "Jupiter & Outer Planets",
+   "profile": "ESA's Jupiter Icy Moons Explorer (Juice) is cruising to Jupiter using a series of planetary gravity assists, to study Ganymede, Callisto and Europa from 2031.",
+   "status": "In transit; Earth flyby completed 28 Sep 2026",
+   "launched": "14 Apr 2023"
+  },
+  {
+   "agency": "esa",
+   "mission": "Mars",
+   "profile": "Mars Express, ESA's longest-serving Mars orbiter, images and maps the planet's surface, subsurface and atmosphere.",
+   "status": "Operating",
+   "launched": "2 Jun 2003"
+  },
+  {
+   "agency": "jaxa",
+   "mission": "XRISM",
+   "profile": "JAXA-led X-ray Imaging and Spectroscopy Mission, built with NASA, performing high-resolution X-ray spectroscopy of hot cosmic plasmas, from galaxy clusters to compact binary stars.",
+   "status": "Operating",
+   "launched": "Sep 2023"
+  },
+  {
+   "agency": "nasa",
+   "mission": "COSI",
+   "profile": "Compton Spectrometer and Imager, a NASA Small Explorer gamma-ray telescope being built at UC Berkeley to map how chemical elements form in the Milky Way.",
+   "status": "In integration"
+  },
+  {
+   "agency": "nasa",
+   "mission": "Chandra X-ray Observatory",
+   "profile": "NASA's flagship X-ray observatory, studying hot and energetic regions of the universe such as black holes, supernova remnants and galaxy clusters from a high elliptical Earth orbit.",
+   "status": "Operating",
+   "launched": "23 Jul 1999"
+  },
+  {
+   "agency": "cnsa",
+   "mission": "Tiangong Space Station",
+   "profile": "China's modular space station in low Earth orbit, continuously crewed by rotating Shenzhou crews and preparing to host its first foreign astronaut, from Pakistan, on Shenzhou-24.",
+   "status": "Operating; first foreign astronaut due on Shenzhou-24",
+   "launched": "Apr 2021 (core module)"
+  },
+  {
+   "agency": "isro",
+   "mission": "NVS-03",
+   "profile": "Second-generation satellite for India's NavIC regional navigation system, part of the NVS series replacing the original IRNSS satellites.",
+   "status": "In orbit",
+   "launched": "30 Oct 2026"
+  },
+  {
+   "agency": "nasa",
+   "mission": "DAVINCI",
+   "profile": "Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging: a NASA Venus mission whose descent probe will study the planet's deep atmosphere.",
+   "status": "In development"
+  },
+  {
+   "agency": "esa",
+   "mission": "Smile",
+   "profile": "Solar wind Magnetosphere Ionosphere Link Explorer, a joint ESA–Chinese Academy of Sciences mission imaging how Earth's magnetosphere responds to the solar wind.",
+   "status": "Science operations",
+   "launched": "19 May 2026"
+  },
+  {
+   "agency": "nasa",
+   "mission": "PRIMA",
+   "profile": "PRobe far-Infrared Mission for Astrophysics, a far-infrared observatory and the first mission in NASA’s new Probe Explorers class of astrophysics missions.",
+   "status": "Selected Sep 2026; in development"
+  },
+  {
+   "agency": "isro",
+   "mission": "TRISHNA",
+   "profile": "Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment, a joint ISRO–CNES mission to map land and water surface temperature for water-use and climate monitoring.",
+   "status": "In development"
+  },
+  {
+   "agency": "esa",
+   "mission": "Euclid",
+   "profile": "ESA's wide-field space telescope mapping the shapes and distribution of billions of galaxies across a third of the sky to probe dark matter and dark energy.",
+   "status": "Operating",
+   "launched": "1 Jul 2023",
+   "expected": "6-year survey"
+  },
+  {
+   "agency": "jaxa",
+   "mission": "MMX (Martian Moons eXploration)",
+   "profile": "JAXA mission to Mars's moons Phobos and Deimos that will land on Phobos, collect a surface sample and return it to Earth — the first sample return from the Martian system.",
+   "status": "Launch scheduled 20 Oct 2026 (JST) on H3 F10",
+   "expected": "Sample return to Earth planned for 2031"
+  },
+  {
+   "agency": "isro",
+   "mission": "Solar Missions",
+   "profile": "Aditya-L1, India's first dedicated solar observatory, studies the Sun's corona, chromosphere and solar wind from a halo orbit around the Sun–Earth L1 point.",
+   "status": "Operating",
+   "launched": "2 Sep 2023"
+  },
+  {
+   "agency": "nasa",
+   "mission": "NEO Surveyor",
+   "profile": "Near-Earth Object Surveyor, a NASA infrared space telescope designed to find and characterise potentially hazardous asteroids and comets that approach Earth.",
+   "status": "In integration and testing"
+  },
+  {
+   "agency": "esa",
+   "mission": "Hera",
+   "profile": "ESA's planetary defence mission to the binary asteroid system Didymos–Dimorphos, which will survey the aftermath of NASA's DART impact on Dimorphos.",
+   "status": "In transit; returning early previews of Didymos and Dimorphos",
+   "launched": "7 Oct 2024"
+  },
+  {
+   "agency": "esa",
+   "mission": "ERMIS",
+   "profile": "Technology-demonstration CubeSats supported by ESA and developed with the National and Kapodistrian University of Athens, testing optical communications on small satellites.",
+   "status": "ERMIS-3 laser link to ground achieved"
+  }
+ ],
+ "items": [
+  {
+   "id": 0,
+   "title": "Webb image of star formation and jets in NGC 7129",
+   "agency": "nasa",
+   "mission": "James Webb Space Telescope",
+   "publishedAt": "2026-11-16T05:05:00.000Z",
+   "summary": "NASA's Astronomy Picture of the Day for 16 November features a James Webb Space Telescope view of star formation with jets in the region NGC 7129.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "title": "The last ice on Puncak Jaya shrinks to scattered patches",
+   "agency": "nasa",
+   "mission": "Earth Observation",
+   "publishedAt": "2026-11-16T05:00:00.000Z",
+   "summary": "Ice near the summit of Indonesia's Puncak Jaya has shrunk to scattered patches too small to flow like glaciers, NASA's Earth Observatory reports.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Pakistani astronaut to become first foreign visitor to China's Tiangong station on Shenzhou-24",
+   "agency": "cnsa",
+   "mission": "Tiangong Space Station",
+   "publishedAt": "2026-11-15T00:45:41.000Z",
+   "summary": "Pakistan's first astronaut is set to fly to China's Tiangong space station on the Shenzhou-24 mission this month, becoming the first international visitor to the station. Reports describe the flight as part of opening Tiangong to partner countries.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Space",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOUtlWlBXSjRfa0VFcElTa3JYNW5KMXVTMlE3ZUtnZTJGLVdmSkhDWVBzR0ZnbmdVSzlzdEptYjMyVjkyR0RjX2trZHF2c1R0QWllR3ozR1pNem5QdmxyNXhuazF0RlNFVnhldTRQRVM3N05Rb3ZKVGhWaV82eWh3QXZTWVNYSzNJdW5FcGhEakFDM1dPdTZ4U2FrMzNwRnktcERJRVVrQ0RDRWMwbHE2NDQzSWhaTUpVcVpUdTMtc2FYdUtCRXhRWjRaOF9vdDFHd3h6VVFYc2NGN2ZTTEtMdnFCSWFTaFdjckROTEdTc3hBTU0?oc=5"
+    },
+    {
+     "name": "Universe Today",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd25HRmRWZUZSMzk4eS11R3dqV3h3R0FuQTlpb1I4NEFIbEFMVW5FT0pNRGxnWHV2eVdfUWVscWJybnJXNlRYenNhS2FxbHczbU5WQUYtWmxDbFRRUGtITUFrZ2RfRjNGQ1FFb0ZIVk5KTzlUWkF1Um1ocF90QmRPWV9OZHMzYm9oTllEY3oteFZmbl9KRXVPNFRMcmpOTzRRMXJscFNOWV9tRkFaSUdTNzRxTFFVa1VERzMzcA?oc=5"
+    },
+    {
+     "name": "DW.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUWhCUGhvWTFBV1lUcWhHWG1tWUFVQXgtaVZvcDdmalQ5X0djSzFOTGg0TWtRRVItSXpwd1JlVkROUnFtRlY0bUlteWlxb1ZwazItTmY4UnZNcmVTUmhkcFFqX25MOUx0WGxrVi1pT2FmZGpmWWloZUtGMGJvNDJlNkw3SzNEa28?oc=5"
+    },
+    {
+     "name": "Tech Times",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb3BRM09JUzhSekRjQ0hpRXh6VVcwWUMtYXZNbXlmYUVIcE5Bd0JUYmpWYTdJaEppcmpwTEtsWDhtV0hncDB4d1FVLUxJbWwxRF9NVWY3ak5mSzEzRkFkemVXODRFOE51M0d3eXJ1U2pSdFJrMEpxdU1EbkJfZVhDd2hTLWd4ODlmVEdYOFM5TTF0MDc0S0tuSE11eDZtS1pHUUszVEZ0V1ROWFdFWVBudndDNGhrX19Qc1o1eTNxbTV5SW1xLUd3ekVRMzhyVkdfNm02bHN5WQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "China's Tianwen-4 Jupiter mission to attempt a landing on Callisto",
+   "agency": "cnsa",
+   "mission": "Tianwen Program",
+   "publishedAt": "2026-11-13T23:15:33.000Z",
+   "summary": "China's Tianwen-4 mission to the Jupiter system will attempt a landing on the moon Callisto, SpaceNews reports. China Daily reports that preparations for the Jupiter mission have been cleared to proceed.",
+   "images": [],
+   "sources": [
+    {
+     "name": "SpaceNews",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWUtZ3E2cmNYTjRWQnRucV81M3lxNTlTV0xjNGlwNXdFbU10TUtfY2xUSl8wUURWT0hmT3dVbFBVUVppaTZ0Rk5HeEd2eXFCWWRZdl8yUmE3MkZabGptN2plV2Y3bTh1RjJKTmUwbnVJSGpZN1E5amRRZDh5U1RwQVFMX0VxNm1VSEJzUkF4aVcxQQ?oc=5"
+    },
+    {
+     "name": "China Daily Global Edition",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUnNsX0RMbTB5RTJNbDR1dnZzempVV2pNMHFURVFyLUVBZlNQRlZ6amZmcWdjcmx6WUYxeUxVbEUyYzRjN0FIVms5VFR6NUNTUkQ4bENtZHM3b05rWlI3d1I2NlEtenRmaFp6UWxDbTJVX3dIWno5THdoZW9iRl9aR0l3?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Instruments on NASA's Roman Space Telescope synchronized for science",
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "publishedAt": "2026-11-13T18:54:51.000Z",
+   "summary": "NASA reports that the instruments on the Nancy Grace Roman Space Telescope have been brought into sync for science operations as commissioning continues.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA Science (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORjhSRE1mN0w2SzJONjRpTEwzZVZrN0F1eVNQa1Bwd203cnB1RnBTSnVOc21wTGMyZFlYT1JHZGZOMzRaREhhQlR2cVZzSzFLT0FRYUFpODFWZE9PdFF4SWlkNWIxSXdERmpxY1Bra2UzUHQ4NzR3WHpEZklLSXRLRnBCcDdYbEJXWS1xU0NGNWFtUlA3QTB4bW5JU1lZQ2xYUndhUTlabUxaTGpaNmd3bkY4VEdYdw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Chandra finds hidden companion triggering outbursts from a giant star",
+   "agency": "nasa",
+   "mission": "Chandra X-ray Observatory",
+   "publishedAt": "2026-11-13T16:41:00.000Z",
+   "summary": "Using NASA's Chandra X-ray Observatory, astronomers discovered a previously hidden black hole or neutron star companion that is triggering repeated outbursts from a giant, unstable star.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/a-giant-star-in-a-distant-galaxy-has-been-mysteriously-erupting-for-at-least-15-years-new-data-from-nasas-chandra-explains-what-is-causing-these-huge-outbursts/"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "NGC 206 and the star clouds of Andromeda",
+   "agency": "nasa",
+   "mission": null,
+   "publishedAt": "2026-11-13T05:05:00.000Z",
+   "summary": "NASA's Astronomy Picture of the Day for 13 November features the star cluster NGC 206 and the star clouds of the Andromeda Galaxy.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Mangrove forests rebound globally after decades of decline",
+   "agency": "nasa",
+   "mission": "Earth Observation",
+   "publishedAt": "2026-11-13T05:01:00.000Z",
+   "summary": "After decades of decline, mangrove forests are making a global comeback, NASA's Earth Observatory reports.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA News",
+     "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Hera images Didymos with its moonlet Dimorphos peeking out",
+   "agency": "esa",
+   "mission": "Hera",
+   "publishedAt": "2026-11-12T14:04:40.000Z",
+   "summary": "ESA's Hera planetary defence mission imaged the Didymos binary asteroid system from 56 km away. The image shows one face of the 780-m-diameter Didymos, with a small part of its 151-m-diameter moonlet Dimorphos visible near the top.",
+   "images": [
+    "https://media.esa.int/global/public/common/misc/2026/11/402509/image-thumb__402509__fit_large/af1-sci-261031t123058-0-2x.2506818e.webp"
+   ],
+   "sources": [
+    {
+     "name": "ESA Top News",
+     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Hubble observes a sampler of targets for the Roman Space Telescope",
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "publishedAt": "2026-11-12T13:18:40.000Z",
+   "summary": "NASA has released a set of Hubble Space Telescope observations of targets that the Nancy Grace Roman Space Telescope will study.",
+   "images": [],
+   "sources": [
+    {
+     "name": "NASA Science (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZE1sTUhBSFVsbHNPNmxBRS10SWpHWFR6dnJMV0ZxMXN6OG5SVk9Ed29DcXpCNlRabmo2cXZSZmd6MDlGSXBxOGI1cnJrTTFZMjdxNEE4MW1haldtdHNwWlF2NVVycVl3V2g2RFVUbVd2bm9KeHF0UVJkQXY2WHJDVTlpdVllemppTHE0R3RhOE1rNjZJdDRLMzNUNFZRUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Parker Solar Probe finds a hidden pattern in the Sun's magnetic fields",
+   "agency": "nasa",
+   "mission": "Solar Missions",
+   "publishedAt": "2026-11-12T02:36:50.000Z",
+   "summary": "Data from NASA's Parker Solar Probe have revealed a previously hidden pattern within the Sun's apparently chaotic magnetic fields.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Science Daily",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JaFJGYXNiazJWWWo5NW5ZX0FLc3NxVHc2OHVfb25La1RxcDJYRjlJSm5qMEk4OVJyTTlDMFJEeFUzOE5GVFprYXZNenhwb05aTTZYYjlFSGRVeGtXSFFQVGtEdDVHNkNBYmt2cmc2TQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "title": "Roman Space Telescope expected to deliver better images and longer life than predicted",
+   "agency": "nasa",
+   "mission": "Nancy Grace Roman Space Telescope",
+   "publishedAt": "2026-11-11T15:24:44.000Z",
+   "summary": "Early performance indicates NASA's Roman Space Telescope will take better images and last longer than experts had predicted, Live Science reports.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Live Science",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNTJtSld2XzlFaWVMaklWUXc3bXhpN1lzSTBhUXFOVW9EUXdjN1lXQXNWc2ZHR1U0Uk9HLU4tSTl1ajR3OEdVWGNzaEd0bGlTX3V0bmVGbHdYc3JNUV95TkcwbFh5V2FnX0hTWjZsNlBrbUlRRHJtUE5QdFYwQ0hrWVdYeGlJRWlLYmFEd1JVc0ZkdmJXZy11YWliMl9DUzE2dUo4N3ZqWk1EbEdvQVc1MGc0NDZjeUpuYTdJcXRrUDI0d0U1ZlVzSVFOLXJlMHZ2NnFObDJFQVRzTkFCRlZvOXVqU0M1bmdiUG5HMHEtOTZTRmZLWGxwNFgwb2toUXJzbGZVV25BQWNtX0dZSGhyag?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "title": "Vera C. Rubin Observatory begins capturing its decade-long survey of the sky",
+   "agency": "nsf-doe",
+   "mission": "Vera C. Rubin Observatory",
+   "publishedAt": "2026-11-10T18:13:51.000Z",
+   "summary": "The U.S. Department of Energy announced that the NSF–DOE Vera C. Rubin Observatory has begun capturing what it calls the greatest cosmic movie ever made, its repeated imaging of the southern sky.",
+   "images": [],
+   "sources": [
+    {
+     "name": "Department of Energy (.gov)",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMXFQbjN0bUlpQXk0MGg3dXF2VVprbHNZdUxicng2ajY2S2NMTnp0QklOcl96eDE3MTVOWUJ6b0JKNkVFVjhtSVFXTjJWTWRicHYyYUk2VVRienNoRWhuTTNMeE93MWNjQWRrc3NRbkRqUHc1RWQ2RXBHTWJhV1lRM2o0TVBvcGJwejlHVjFwV1NqYnY5MFhZX1dPR0dRR21BWTlKY2N6T2xoSHhvdWhOZEVlNW9Rd0ZLTWc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "title": "CHAPEA Mission 2 crew marks their simulated Mars stay",
+   "agency": "nasa",
+   "mission": "Mars",
+   "publishedAt": "2026-11-10T15:39:00.000Z",
+   "summary": "NASA released photos of the CHAPEA Mission 2 crew arranged around a boot print in the simulated Martian sand outside their analog habitat.",
+   "images": [
+    "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e425219orig.jpg"
+   ],
+   "sources": [
+    {
+     "name": "NASA Image of the Day",
+     "url": "https://www.nasa.gov/image-detail/photos-from-chapea-mission-2-arranged-around-boot-print/"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "title": "Solar Orbiter's journey around the Sun",
+   "agency": "esa",
+   "mission": "Solar Missions",
+   "publishedAt": "2026-11-10T12:19:09.000Z",
+   "summary": "ESA has published an overview of Solar Orbiter's journey around the Sun.",
+   "images": [],
+   "sources": [
+    {
+     "name": "ESA",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zc1J5RTJaRjRuMjdJWU15RjliZ3dtdHQtcnJNNlBwc0NiOGtJZkJ6OEJyRjgySFpOZjJLb2p1NkVmdEpwTjdNa01EVGFVcWhVZTBNdVV1VWd0UHRYN1M4QzFrSUMzWEJ3bWV6ZFkyRVdOLU1wWGV0RER3aXU?oc=5"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "title": "ISRO completes flight acceptance test of cryogenic engine for next GSLV mission",
+   "agency": "isro",
+   "mission": "GSLV",
+   "publishedAt": "2026-11-10T11:39:29.000Z",
+   "summary": "ISRO has conducted the flight acceptance hot test of the cryogenic engine that will power the upper stage of its next GSLV mission.",
+   "images": [],
+   "sources": [
+    {
+     "name": "ISRO",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtNVhUQXdDbWNwLUZ1c2tQbWhzMEZwbXlBTUN6dERkdENub2pYUjZmcjEwZThQaWEtSTh0QUZSNkNQdm1WRUJNWlZZR0xCTWRjeWRhQVNYUXA0VWpDVXhQeENuRE13dw?oc=5"
+    }
+   ]
+  }
+ ]
+}
